@@ -5,12 +5,14 @@
 
 .hero {
 	position: absolute;
-    bottom: 18%;
+    bottom: 14%;
     left: 50%;
     transform: translateX(-50%);
 	h1, h3 {
-		color: #fff;
-		text-align: center;
+		color: $primary-font-light;
+		letter-spacing: -2px;
+    	font-size: 25px;
+    	text-shadow: 0 0 10px black;
 	}
 }
 
@@ -19,7 +21,8 @@
 
 // ABOUT SECTION
 .page-section {
-	padding: 40px 0;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	h2 {
 		padding-bottom: 10px;
 	}
