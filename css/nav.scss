@@ -24,29 +24,29 @@
 .top-menu {
   top: 5px;
   width: 25px;
-  height: 2px;
-  border-radius: 10px;
+  height: 3px;
+  border-radius: 0;
   background-color: #F9A530;
 }
 
 .mid-menu {
   top: 13px;
   width: 25px;
-  height: 2px;
-  border-radius: 10px;
+  height: 3px;
+  border-radius: 0;
   background-color: #F9A530;
 }
 
 .bottom-menu {
   top: 21px;
   width: 25px;
-  height: 2px;
-  border-radius: 10px;
+  height: 3px;
+  border-radius: 0;
   background-color: #F9A530;
 }
 
 .menui {
-  background: #fff;
+  background: $primary-font-light;
   transition: 0.5s ease;
   transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
   margin-top: 10px;

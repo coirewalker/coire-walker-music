@@ -18,16 +18,32 @@
 
 
 
+// COLORS
+$primary-font-light: #F1F3F2;
 
-// FONT SETTINGS 
-h1, a {
+
+
+
+// FONT SETTINGS
+h1, h2, h3, h4, h5, p, a {
 	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+	
+h1 {
+	text-transform: lowercase;
+	margin-bottom: 0;
+	font-weight: 500;
+	letter-spacing: -3px;
 }
 
-h1 {	
+h2, h3 {	
+	text-transform: uppercase;
 	letter-spacing: -2px;
+	font-weight: 700;
+	text-align: center;
 }
 
-h3 {
+p {
 	font-family: 'Montserrat Alternates', sans-serif;
 }

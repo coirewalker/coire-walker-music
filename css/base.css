@@ -13,13 +13,23 @@
   -moz-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.51);
   box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.51); }
 
-h1, a {
-  font-family: 'Montserrat', sans-serif; }
+h1, h2, h3, h4, h5, p, a {
+  font-family: 'Montserrat', sans-serif;
+  color: #000; }
 
 h1 {
-  letter-spacing: -2px; }
+  text-transform: lowercase;
+  margin-bottom: 0;
+  font-weight: 500;
+  letter-spacing: -3px; }
 
-h3 {
+h2, h3 {
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  font-weight: 700;
+  text-align: center; }
+
+p {
   font-family: 'Montserrat Alternates', sans-serif; }
 
 /*# sourceMappingURL=base.css.map */

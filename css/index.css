@@ -9,9 +9,10 @@
   .hero h1, .hero h3 {
     color: #fff;
     text-align: center; }
-  .hero h1 {
-    text-transform: lowercase;
-    color: #F1F3F2;
-    margin-bottom: 0; }
+
+.page-section {
+  padding: 40px 0; }
+  .page-section h2 {
+    padding-bottom: 10px; }
 
 /*# sourceMappingURL=index.css.map */
