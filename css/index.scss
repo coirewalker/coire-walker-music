@@ -1,0 +1,20 @@
+// HEADER 
+.burger {
+	color: #fff;
+}
+
+.hero {
+	position: absolute;
+    bottom: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+	h1, h3 {
+		color: #fff;
+		text-align: center;
+	}
+	h1 {
+		text-transform: lowercase;
+		color: #F1F3F2;
+		margin-bottom: 0;
+	}
+}

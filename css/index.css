@@ -1,0 +1,17 @@
+.burger {
+  color: #fff; }
+
+.hero {
+  position: absolute;
+  bottom: 18%;
+  left: 50%;
+  transform: translateX(-50%); }
+  .hero h1, .hero h3 {
+    color: #fff;
+    text-align: center; }
+  .hero h1 {
+    text-transform: lowercase;
+    color: #F1F3F2;
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=index.css.map */
