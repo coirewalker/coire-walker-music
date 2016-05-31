@@ -28,7 +28,7 @@ $(document).ready(function() {
 	    }, 600, 'swing', function () {
 		    if(history.pushState) history.pushState(null,null,target);
 				else location.hash = target;
-		    });;
+		});;
 	});
 
 	//CHANGE BURGER COLOR ON SCROLL 

@@ -17,6 +17,7 @@
 // COLORS
 $primary-font-light: #F1F3F2;
 $primary-font-gray: #CFCFCF;
+$highlight-hover: #CFCFCF;
 
 
 
@@ -45,6 +46,7 @@ h2, h3 {
 h2 {
 	letter-spacing: -2px;
 	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
 h3 {
@@ -58,3 +60,30 @@ p {
 	font-family: 'Montserrat Alternates', sans-serif;
 	text-align: left;
 }
+
+
+
+
+// CONTAINERS 
+.page-section {
+	padding-top: 20px;
+}
+
+.page-sub-section {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.page-sub-section--title {
+	h3 {	
+		padding: 0;
+		margin: 0;
+	}
+}
+
+
+
+
+
+
+

@@ -28,7 +28,8 @@ h2, h3 {
 
 h2 {
   letter-spacing: -2px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 20px; }
 
 h3 {
   text-transform: lowercase;
@@ -38,5 +39,16 @@ h3 {
 p {
   font-family: 'Montserrat Alternates', sans-serif;
   text-align: left; }
+
+.page-section {
+  padding-top: 20px; }
+
+.page-sub-section {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.page-sub-section--title h3 {
+  padding: 0;
+  margin: 0; }
 
 /*# sourceMappingURL=base.css.map */
