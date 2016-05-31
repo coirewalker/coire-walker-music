@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 	$win.on('scroll', function() {
 		if ($(this).scrollTop() > winH) {
-			$('.menui').css({"background": "#000"});
+			$('.menui').css({"background": "#CFCFCF"});
 		} else {
 			$('.menui').css({"background": "#F1F3F2"});
 		}
