@@ -16,7 +16,9 @@
 
 // COLORS
 $primary-font-light: #F1F3F2;
+$primary-font-gray-light: #EBEBEB;
 $primary-font-gray: #CFCFCF;
+$primary-font-gray-dark: #5C5758;
 $highlight-hover: #CFCFCF;
 
 
@@ -46,40 +48,28 @@ h2, h3 {
 h2 {
 	letter-spacing: -2px;
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 h3 {
 	text-transform: lowercase;
 	letter-spacing: -1px;
 	color: $primary-font-gray;
+	font-size: 28px;
 }
-
 
 p {
 	font-family: 'Montserrat Alternates', sans-serif;
 	text-align: left;
 }
 
-
-
-
-// CONTAINERS 
-.page-section {
-	padding-top: 20px;
+a:hover, a:focus {
+	color: $primary-font-gray-dark;
+    text-decoration: none;
 }
 
-.page-sub-section {
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
 
-.page-sub-section--title {
-	h3 {	
-		padding: 0;
-		margin: 0;
-	}
-}
 
 
 

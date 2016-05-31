@@ -29,26 +29,21 @@ h2, h3 {
 h2 {
   letter-spacing: -2px;
   text-transform: uppercase;
-  margin-bottom: 20px; }
+  margin-top: 0;
+  margin-bottom: 0; }
 
 h3 {
   text-transform: lowercase;
   letter-spacing: -1px;
-  color: #CFCFCF; }
+  color: #CFCFCF;
+  font-size: 28px; }
 
 p {
   font-family: 'Montserrat Alternates', sans-serif;
   text-align: left; }
 
-.page-section {
-  padding-top: 20px; }
-
-.page-sub-section {
-  padding-top: 25px;
-  padding-bottom: 25px; }
-
-.page-sub-section--title h3 {
-  padding: 0;
-  margin: 0; }
+a:hover, a:focus {
+  color: #5C5758;
+  text-decoration: none; }
 
 /*# sourceMappingURL=base.css.map */

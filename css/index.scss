@@ -5,7 +5,7 @@
 
 .hero {
 	position: absolute;
-    bottom: 27%;
+    bottom: 20%;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
@@ -17,19 +17,55 @@
 	h1 {
 		font-size: 37px;
 	}
+	h3 {
+		font-size: 13px;
+		font-family: 'Montserrat Alternates', sans-serif;
+		letter-spacing: -1px;
+		font-weight: 400;
+		padding: 0 41px;
+	}
 }
 
 
 
 
+// CONTAINERS
+.page-section, .shows-wrapper {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
 
 // MUSIC
+.page-sub-section--title {
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	h3 {
+		padding: 0;
+		margin: 0;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+	&:hover h3 {
+		color: $primary-font-gray-dark;
+	}
+}
+
+.page-sub-section--toggle-block {
+	display: none;
+}
+
 .video-wrapper {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	position: relative;
     padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
-    padding-top: 30px;
+    margin-top: 30px;
     height: 0;
     overflow: hidden;
     iframe {
@@ -41,10 +77,36 @@
     }
 }
 
+.video-wrapper:first-of-type {
+	margin-top: 0;
+}
+
 .sc-item {
 	margin-top: 35px;
 }
 
 .sc-item:first-of-type {
 	margin-top: 0;
+}
+
+
+
+
+// SHOWS
+.shows-wrapper-row {
+	background-color: $primary-font-gray-light;
+	border-bottom: 1px solid #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	h4 {
+		color: $primary-font-gray;
+	}
+	h4, p {
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	p {
+		font-weight: 700;
+	}
 }

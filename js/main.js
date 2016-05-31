@@ -44,5 +44,13 @@ $(document).ready(function() {
 	}).on('resize', function() {
 		winH = $(this).height();
 	});
+
+	// TOGGLE MUSIC SECTION BLOCKS
+	$('.page-sub-section--title').click(function() {
+		$('.page-sub-section--title').not(this).next('.page-sub-section--toggle-block').fadeOut(500);
+		$(this).next('.page-sub-section--toggle-block').fadeToggle(500);
+	});
+
+
     
 });
