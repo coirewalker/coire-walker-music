@@ -52,7 +52,7 @@
 		transition:.5s;
 	}
 	&:hover h3 {
-		color: $primary-font-gray-dark;
+		color: $primary-font-gray-light;
 	}
 }
 
@@ -110,3 +110,34 @@
 		font-weight: 700;
 	}
 }
+
+
+
+
+
+// CONTACT
+.contact-info {
+	h4, p {
+		text-align: center;
+		margin: 0;
+	}
+	p {
+		color: $primary-font-gray;
+	}
+}
+
+.contact-icons {
+	ul {
+		padding-left: 0;
+		text-align: center;
+	}
+	li {
+		text-decoration: none;
+		display: inline-block;
+		padding: 5px;
+	}
+}
+
+
+
+

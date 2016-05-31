@@ -175,7 +175,7 @@ a:hover, a:focus {
     -webkit-transition: .5s;
     transition: .5s; }
   .page-sub-section--title:hover h3 {
-    color: #5C5758; }
+    color: #EBEBEB; }
 
 .page-sub-section--toggle-block {
   display: none; }
@@ -218,5 +218,19 @@ a:hover, a:focus {
     text-align: center; }
   .shows-wrapper-row p {
     font-weight: 700; }
+
+.contact-info h4, .contact-info p {
+  text-align: center;
+  margin: 0; }
+.contact-info p {
+  color: #CFCFCF; }
+
+.contact-icons ul {
+  padding-left: 0;
+  text-align: center; }
+.contact-icons li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px; }
 
 /*# sourceMappingURL=main.css.map */
