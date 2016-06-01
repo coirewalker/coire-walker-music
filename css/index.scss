@@ -82,33 +82,58 @@
 
 
 // MUSIC
-.music-bg-wrap {
-	background-color: $primary-font-gray-light;
-	position: relative;
-	z-index: 1;
-	&:before, &:after {
-		background: inherit;
-		content: '';
-		display: block;
-		height: 50%;
-		left: 0;
-		position: absolute;
-		right: 0;
-		z-index: -1;
-		-webkit-backface-visibility: hidden; // for Chrome Windows
-	}
-	&:before {
-		top: 0;
-		transform: skewY(3deg);
-		transform-origin: 100% 0;
-	}
-	&:after {
-		bottom: 0;
-		transform: skewY(-3deg);
-		transform-origin: 100% 0;
-	}
-}
+// .music-bg-wrap {
+// 	background-color: $primary-font-gray-light;
+// 	position: relative;
+// 	z-index: 1;
+// 	&:before {
+// 	    background: inherit;
+// 	    content: '';
+// 	    display: block;
+// 	    height: 50%;
+// 	    left: 0;
+// 	    position: absolute;
+// 	    right: 0;
+// 	    z-index: -1;
+// 	    -webkit-backface-visibility: hidden; // for Chrome Windows
+// 	}
+// 	&:before {
+// 	    top: 0;
+// 	    transform: skewY(3deg);
+// 	    transform-origin: 100% 0;
+//     }
+// }
 
+.music-bg-wrap {
+  background: $primary-font-gray-light;
+  position: relative;
+  z-index: 1;
+  
+  &:before,
+  &:after {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden; // for Chrome Windows
+  }
+
+  &:before {
+    top: 0;
+    transform: skewY(3deg);
+    transform-origin: 100% 0;
+  }
+  
+  &:after {
+    bottom: 0;
+    transform: skewY(-3deg);
+    transform-origin: 100%;
+  }
+}
 
 #music {
 	.page-sub-section--title h2 {
@@ -132,7 +157,6 @@
 	margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
-
 }
 
 .page-sub-section--toggle-block {
@@ -173,9 +197,13 @@
 
 
 // SHOWS
+.shows-bg-wrap {
+	background-color: #fff;
+	position: relative;
+	z-index: 0;
+}
 .shows-outer-wrap {
 	.row {
-		/* remove bootstrap margins for border bottom */
 		margin-left: 0;
 		margin-right: 0;
 	}
@@ -199,6 +227,17 @@
 	}
 	p {
 		font-weight: 700;
+	}
+}
+
+@media (min-width: 768px) {
+	.shows-wrapper-row {
+		h3 {
+			text-align: right;
+		}
+		h4 {
+			text-align: left;
+		}
 	}
 }
 

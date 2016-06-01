@@ -204,7 +204,7 @@ a:hover, a:focus {
   background-color: #fff; }
 
 .music-bg-wrap {
-  background-color: #EBEBEB;
+  background: #EBEBEB;
   position: relative;
   z-index: 1; }
   .music-bg-wrap:before, .music-bg-wrap:after {
@@ -224,7 +224,7 @@ a:hover, a:focus {
   .music-bg-wrap:after {
     bottom: 0;
     transform: skewY(-3deg);
-    transform-origin: 100% 0; }
+    transform-origin: 100%; }
 
 #music .page-sub-section--title h2 {
   color: #000; }
@@ -271,8 +271,12 @@ a:hover, a:focus {
 .sc-it1qem:first-of-type {
   margin-top: 0; }
 
+.shows-bg-wrap {
+  background-color: #fff;
+  position: relative;
+  z-index: 0; }
+
 .shows-outer-wrap .row {
-  /* remove bootstrap margins for border bottom */
   margin-left: 0;
   margin-right: 0; }
 
@@ -293,6 +297,11 @@ a:hover, a:focus {
   .shows-wrapper-row p {
     font-weight: 700; }
 
+@media (min-width: 768px) {
+  .shows-wrapper-row h3 {
+    text-align: right; }
+  .shows-wrapper-row h4 {
+    text-align: left; } }
 .contact-bg-wrap {
   background-color: #000000;
   background-image: url("../images/broken-noise.png");
