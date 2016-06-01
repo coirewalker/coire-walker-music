@@ -10,19 +10,20 @@
     transform: translateX(-50%);
     width: 100%;
 	h1, h3 {
-		color: $primary-font-light;
 		letter-spacing: -2px;
     	text-shadow: 0px 1px 2px #000;
+    	margin-top: 10px;
 	}
 	h1 {
+		color: $primary-font-gray;
 		font-size: 37px;
 	}
 	h3 {
-		font-size: 13px;
+		color: $primary-font-light;
+		font-size: 16px;
 		font-family: 'Montserrat Alternates', sans-serif;
 		letter-spacing: -1px;
 		font-weight: 400;
-		padding: 0 41px;
 	}
 }
 
@@ -42,8 +43,10 @@
 }
 
 .about-bg-wrap, .music-bg-wrap, .shows-bg-wrap, .contact-bg-wrap {
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
+
+
 
 
 
@@ -79,8 +82,57 @@
 
 
 // MUSIC
+// .music-bg-wrap {
+// 	background-color: $primary-font-gray-light;
+// 	position: relative;
+// 	z-index: 1;
+// 	&:before {
+// 	    background: inherit;
+// 	    content: '';
+// 	    display: block;
+// 	    height: 50%;
+// 	    left: 0;
+// 	    position: absolute;
+// 	    right: 0;
+// 	    z-index: -1;
+// 	    -webkit-backface-visibility: hidden; // for Chrome Windows
+// 	}
+// 	&:before {
+// 	    top: 0;
+// 	    transform: skewY(3deg);
+// 	    transform-origin: 100% 0;
+//     }
+// }
+
 .music-bg-wrap {
-	background-color: $primary-font-gray-light;
+  background: $primary-font-gray-light;
+  position: relative;
+  z-index: 1;
+  
+  &:before,
+  &:after {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden; // for Chrome Windows
+  }
+
+  &:before {
+    top: 0;
+    transform: skewY(3deg);
+    transform-origin: 100% 0;
+  }
+  
+  &:after {
+    bottom: 0;
+    transform: skewY(-3deg);
+    transform-origin: 100%;
+  }
 }
 
 #music {
@@ -105,7 +157,6 @@
 	margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
-
 }
 
 .page-sub-section--toggle-block {
@@ -137,7 +188,7 @@
 	margin-top: 35px;
 }
 
-.sc-item:first-of-type {
+.sc-it1qem:first-of-type {
 	margin-top: 0;
 }
 
@@ -146,27 +197,47 @@
 
 
 // SHOWS
+.shows-bg-wrap {
+	background-color: #fff;
+	position: relative;
+	z-index: 0;
+}
+.shows-outer-wrap {
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
 .shows-wrapper-row {
-	border-bottom: 2px solid $primary-font-gray-light;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	border-bottom: 2px solid $primary-font-gray-light;
 	h3, h4, p {
 		padding: 0;
 		margin: 0;
+		text-align: center;
 	}
 	h3 {
 		font-weight: 400;
-		text-align: right;
 		font-size: 18px;
 		color: #000;
 	}
 	h4 {
 		color: $primary-font-gray;
-		text-align: left;
 	}
 	p {
 		font-weight: 700;
-		text-align: center;
+	}
+}
+
+@media (min-width: 768px) {
+	.shows-wrapper-row {
+		h3 {
+			text-align: right;
+		}
+		h4 {
+			text-align: left;
+		}
 	}
 }
 
@@ -179,10 +250,29 @@
 	background-color: #000000;
 	background-image: url("../images/broken-noise.png");
 	background-repeat: repeat;
+	position: relative;
+	z-index: 1;
+	&:before {
+	    background: inherit;
+	    content: '';
+	    display: block;
+	    height: 50%;
+	    left: 0;
+	    position: absolute;
+	    right: 0;
+	    z-index: -1;
+	    -webkit-backface-visibility: hidden; // for Chrome Windows
+	}
+	&:before {
+	    top: 0;
+	    transform: skewY(3deg);
+	    transform-origin: 100% 0;
+  }
 }
 
 .contact-title h2 {
 	color: #fff;
+	padding-bottom: 10px;
 }
 
 .contact-info {
@@ -197,6 +287,9 @@
 	}
 	h4 {
 		color: #fff;
+	}
+	a {
+		color: $primary-font-gray-light;
 	}
 }
 
