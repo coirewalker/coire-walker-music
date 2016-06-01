@@ -26,34 +26,86 @@
 	}
 }
 
+@media (min-width: 768px) {
+	.hero h3 {
+		padding: 0 60px;
+	}
+}
+
 
 
 
 // CONTAINERS
-.page-section, .shows-wrapper {
+.page-section {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.about-bg-wrap, .music-bg-wrap, .shows-bg-wrap, .contact-bg-wrap {
+	padding-bottom: 50px;
+}
+
+
+
+// EMBLEM 
+.emblem {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	margin: 0 auto;
+	display: block;
+}
+
+.emblem-nav {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	margin: 0 auto;
+	display: block;
+}
+
+
+
+
+
+// ABOUT 
+.about-bg-wrap {
+	background-color: #fff;
 }
 
 
 
 
 // MUSIC
-.page-sub-section--title {
-	margin: 0 auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	h3 {
+.music-bg-wrap {
+	background-color: $primary-font-gray-light;
+}
+
+#music {
+	.page-sub-section--title h2 {
+		color: #000;
+	}
+
+	.page-sub-section--title h3 {
 		padding: 0;
 		margin: 0;
 		-ms-transition:.5s;
 		-moz-transition:.5s;
 		-webkit-transition:.5s;
 		transition:.5s;
+		&:hover h3 {
+			color: $primary-font-gray-light;
+		}
 	}
-	&:hover h3 {
-		color: $primary-font-gray-light;
-	}
+}
+
+.page-sub-section--title {
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
 }
 
 .page-sub-section--toggle-block {
@@ -92,22 +144,29 @@
 
 
 
+
 // SHOWS
 .shows-wrapper-row {
-	background-color: $primary-font-gray-light;
-	border-bottom: 1px solid #fff;
+	border-bottom: 2px solid $primary-font-gray-light;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	h4 {
-		color: $primary-font-gray;
-	}
-	h4, p {
+	h3, h4, p {
 		padding: 0;
 		margin: 0;
-		text-align: center;
+	}
+	h3 {
+		font-weight: 400;
+		text-align: right;
+		font-size: 18px;
+		color: #000;
+	}
+	h4 {
+		color: $primary-font-gray;
+		text-align: left;
 	}
 	p {
 		font-weight: 700;
+		text-align: center;
 	}
 }
 
@@ -116,13 +175,28 @@
 
 
 // CONTACT
+.contact-bg-wrap {
+	background-color: #000000;
+	background-image: url("../images/broken-noise.png");
+	background-repeat: repeat;
+}
+
+.contact-title h2 {
+	color: #fff;
+}
+
 .contact-info {
-	h4, p {
+	h4, h3 {
 		text-align: center;
 		margin: 0;
+		padding-bottom: 10px;
 	}
-	p {
+	h3 {
 		color: $primary-font-gray;
+		font-weight: 400;
+	}
+	h4 {
+		color: #fff;
 	}
 }
 
@@ -136,8 +210,10 @@
 		display: inline-block;
 		padding: 5px;
 	}
+	li a {
+		color: #fff;	
+	}
 }
-
 
 
 
