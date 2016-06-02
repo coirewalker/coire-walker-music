@@ -5,7 +5,7 @@
 
 .hero {
 	position: absolute;
-    bottom: 20%;
+    bottom: 17%;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
@@ -16,20 +16,42 @@
 	}
 	h1 {
 		color: $primary-font-gray;
-		font-size: 37px;
+		font-size: 43px;
 	}
 	h3 {
 		color: $primary-font-light;
-		font-size: 16px;
+		font-size: 18px;
 		font-family: 'Montserrat Alternates', sans-serif;
 		letter-spacing: -1px;
 		font-weight: 400;
 	}
 }
 
+// iPhone 6 landscape 
+@media (min-width: 667px) {
+	.hero {
+		h1 {
+			font-size: 51px;
+		}
+		h3 {
+			font-size: 21px;
+			margin-top: 5px;
+		}
+	}
+}
+
+// iPad portrait
 @media (min-width: 768px) {
-	.hero h3 {
-		padding: 0 60px;
+	.hero {
+		h1 {
+			font-size: 60px;
+		}
+	}
+}
+
+@media (min-width: 1025px) {
+	.hero {	    
+		bottom: 12%;
 	}
 }
 
@@ -66,9 +88,15 @@
 	border-radius: 50%;
 	border: 3px solid #fff;
 	margin: 0 auto;
-	display: block;
+	display: inline;
 }
 
+@media (min-width: 768px) {
+	.emblem-nav {
+		width: 100px;
+		height: 100px;
+	}
+}
 
 
 
@@ -80,29 +108,6 @@
 
 
 
-
-// MUSIC
-// .music-bg-wrap {
-// 	background-color: $primary-font-gray-light;
-// 	position: relative;
-// 	z-index: 1;
-// 	&:before {
-// 	    background: inherit;
-// 	    content: '';
-// 	    display: block;
-// 	    height: 50%;
-// 	    left: 0;
-// 	    position: absolute;
-// 	    right: 0;
-// 	    z-index: -1;
-// 	    -webkit-backface-visibility: hidden; // for Chrome Windows
-// 	}
-// 	&:before {
-// 	    top: 0;
-// 	    transform: skewY(3deg);
-// 	    transform-origin: 100% 0;
-//     }
-// }
 
 .music-bg-wrap {
   background: $primary-font-gray-light;

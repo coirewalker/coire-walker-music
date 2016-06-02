@@ -9,7 +9,7 @@
   width: 100%;
   background-position: center top; }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .site-bg {
     background: url("../images/cwm-bg-desktop.jpg");
     background-size: cover;
@@ -17,7 +17,7 @@
     background-repeat: none;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-position: center top; } }
 h1, h2, h3, h4, h5, p, a {
@@ -103,6 +103,21 @@ a:hover, a:focus {
   border-radius: 0;
   background-color: #F9A530; }
 
+@media (min-width: 768px) {
+  .top-menu {
+    top: 8px;
+    width: 40px;
+    height: 5px; }
+
+  .mid-menu {
+    top: 20px;
+    width: 40px;
+    height: 5px; }
+
+  .bottom-menu {
+    top: 32px;
+    width: 40px;
+    height: 5px; } }
 .menui {
   background: #F1F3F2;
   transition: 0.5s ease;
@@ -119,8 +134,15 @@ a:hover, a:focus {
   width: 32px;
   margin: 0px;
   top: 10px;
-  right: 20px; }
+  right: 30px; }
 
+@media (min-width: 768px) {
+  .ham-icon {
+    top: 15px;
+    right: 55px; } }
+@media (min-width: 769px) {
+  .ham-icon {
+    display: none; } }
 .mobilenav {
   font-family: inherit;
   top: 0;
@@ -151,12 +173,21 @@ a:hover, a:focus {
 .mobilenav li:first-child {
   margin-top: 30px; }
 
+@media (min-width: 768px) {
+  .mobilenav li a {
+    font-size: 33px; }
+
+  .mobilenav li {
+    padding: 13px; }
+    .mobilenav li:first-of-type {
+      margin-top: 150px;
+      margin-bottom: 20px; } }
 .burger {
   color: #fff; }
 
 .hero {
   position: absolute;
-  bottom: 20%;
+  bottom: 17%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%; }
@@ -166,17 +197,26 @@ a:hover, a:focus {
     margin-top: 10px; }
   .hero h1 {
     color: #CFCFCF;
-    font-size: 37px; }
+    font-size: 43px; }
   .hero h3 {
     color: #F1F3F2;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Montserrat Alternates', sans-serif;
     letter-spacing: -1px;
     font-weight: 400; }
 
-@media (min-width: 768px) {
+@media (min-width: 667px) {
+  .hero h1 {
+    font-size: 51px; }
   .hero h3 {
-    padding: 0 60px; } }
+    font-size: 21px;
+    margin-top: 5px; } }
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 60px; } }
+@media (min-width: 1025px) {
+  .hero {
+    bottom: 12%; } }
 .page-section {
   padding-top: 20px;
   padding-bottom: 20px; }
@@ -198,8 +238,12 @@ a:hover, a:focus {
   border-radius: 50%;
   border: 3px solid #fff;
   margin: 0 auto;
-  display: block; }
+  display: inline; }
 
+@media (min-width: 768px) {
+  .emblem-nav {
+    width: 100px;
+    height: 100px; } }
 .about-bg-wrap {
   background-color: #fff; }
 

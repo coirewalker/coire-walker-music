@@ -8,11 +8,11 @@ Error: Undefined variable: "$primary-font-gray".
 16: 	}
 17: 	h1 {
 18: 		color: $primary-font-gray;
-19: 		font-size: 37px;
+19: 		font-size: 43px;
 20: 	}
 21: 	h3 {
 22: 		color: $primary-font-light;
-23: 		font-size: 16px;
+23: 		font-size: 18px;
 
 Backtrace:
 css/index.scss:18
@@ -79,4 +79,4 @@ css/index.scss:18
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-font-gray\".\A         on line 18 of css/index.scss\A \A 13: 		letter-spacing: -2px;\A 14:     	text-shadow: 0px 1px 2px #000;\A 15:     	margin-top: 10px;\A 16: 	}\A 17: 	h1 {\A 18: 		color: $primary-font-gray;\A 19: 		font-size: 37px;\A 20: 	}\A 21: 	h3 {\A 22: 		color: $primary-font-light;\A 23: 		font-size: 16px;"; }
+  content: "Error: Undefined variable: \"$primary-font-gray\".\A         on line 18 of css/index.scss\A \A 13: 		letter-spacing: -2px;\A 14:     	text-shadow: 0px 1px 2px #000;\A 15:     	margin-top: 10px;\A 16: 	}\A 17: 	h1 {\A 18: 		color: $primary-font-gray;\A 19: 		font-size: 43px;\A 20: 	}\A 21: 	h3 {\A 22: 		color: $primary-font-light;\A 23: 		font-size: 18px;"; }
