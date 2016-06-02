@@ -6,9 +6,11 @@
     background-repeat: none;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 109vh;
     width: 100%;
     background-position: center top;
+    transform: skewY(3deg);
+	transform-origin: 100% 0;
 }
 
 @media (min-width: 769px) {
