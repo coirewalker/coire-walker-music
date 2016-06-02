@@ -139,7 +139,10 @@ a:hover, a:focus {
 @media (min-width: 768px) {
   .ham-icon {
     top: 15px;
-    right: 55px; } }
+    right: 45px;
+    height: 55px;
+    width: 55px;
+    padding: 20px; } }
 @media (min-width: 769px) {
   .ham-icon {
     display: none; } }

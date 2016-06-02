@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$primary-font-light".
-        on line 67 of css/nav.scss
+        on line 68 of css/nav.scss
 
-62: 		height: 5px;
-63: 	}
-64: }
-65: 
-66: .menui {
-67:   background: $primary-font-light;
-68:   transition: 0.5s ease;
-69:   transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
-70:   margin-top: 10px;
-71:   position: absolute;
-72: }
+63: 		height: 5px;
+64: 	}
+65: }
+66: 
+67: .menui {
+68:   background: $primary-font-light;
+69:   transition: 0.5s ease;
+70:   transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
+71:   margin-top: 10px;
+72:   position: absolute;
+73: }
 
 Backtrace:
-css/nav.scss:67
+css/nav.scss:68
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -68,4 +68,4 @@ css/nav.scss:67
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-font-light\".\A         on line 67 of css/nav.scss\A \A 62: 		height: 5px;\A 63: 	}\A 64: }\A 65: \A 66: .menui {\A 67:   background: $primary-font-light;\A 68:   transition: 0.5s ease;\A 69:   transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);\A 70:   margin-top: 10px;\A 71:   position: absolute;\A 72: }"; }
+  content: "Error: Undefined variable: \"$primary-font-light\".\A         on line 68 of css/nav.scss\A \A 63: 		height: 5px;\A 64: 	}\A 65: }\A 66: \A 67: .menui {\A 68:   background: $primary-font-light;\A 69:   transition: 0.5s ease;\A 70:   transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);\A 71:   margin-top: 10px;\A 72:   position: absolute;\A 73: }"; }
