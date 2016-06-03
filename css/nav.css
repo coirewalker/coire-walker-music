@@ -1,22 +1,26 @@
 /*
-Error: Undefined variable: "$primary-font-light".
-        on line 68 of css/nav.scss
+Error: Undefined variable: "$primary-font-gray-dark".
+        on line 7 of css/nav.scss
 
-63: 		height: 5px;
-64: 	}
-65: }
-66: 
-67: .menui {
-68: 	background: $primary-font-light;
-69: 	transition: 0.5s ease;
-70: 	transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
-71: 	margin-top: 10px;
-72: 	position: absolute;
-73: }
+2: 	-webkit-tap-highlight-color: rgba(0,0,0,0);
+3: 	-webkit-tap-highlight-color: transparent; /* For some Androids *\/
+4: }
+5: 
+6: .top-animate {
+7: 	background: $primary-font-gray-dark !important;
+8: 	top: 13px !important;
+9: 	-webkit-transform: rotate(45deg);
+10: 	/* Chrome, Safari, Opera *\/
+11: 	transform: rotate(45deg);
+12: }
 
 Backtrace:
-css/nav.scss:68
+css/nav.scss:7
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+/Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/list_literal.rb:63:in `map'
+/Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/list_literal.rb:63:in `_perform'
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
@@ -68,4 +72,4 @@ css/nav.scss:68
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-font-light\".\A         on line 68 of css/nav.scss\A \A 63: 		height: 5px;\A 64: 	}\A 65: }\A 66: \A 67: .menui {\A 68: 	background: $primary-font-light;\A 69: 	transition: 0.5s ease;\A 70: 	transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);\A 71: 	margin-top: 10px;\A 72: 	position: absolute;\A 73: }"; }
+  content: "Error: Undefined variable: \"$primary-font-gray-dark\".\A         on line 7 of css/nav.scss\A \A 2: 	-webkit-tap-highlight-color: rgba(0,0,0,0);\A 3: 	-webkit-tap-highlight-color: transparent; /* For some Androids */\A 4: }\A 5: \A 6: .top-animate {\A 7: 	background: $primary-font-gray-dark !important;\A 8: 	top: 13px !important;\A 9: 	-webkit-transform: rotate(45deg);\A 10: 	/* Chrome, Safari, Opera */\A 11: 	transform: rotate(45deg);\A 12: }"; }

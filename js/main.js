@@ -46,11 +46,16 @@ $(document).ready(function() {
 	});
 
 	// TOGGLE MUSIC SECTION BLOCKS
-	$('.page-sub-section--title').click(function() {
-		$('.page-sub-section--title').not(this).next('.page-sub-section--toggle-block').fadeOut(500);
-		$(this).next('.page-sub-section--toggle-block').fadeToggle(500);
+	// $('.page-sub-section--title').click(function() {
+	// 	$('.page-sub-section--title').not(this).next('.page-sub-section--toggle-block').fadeOut(500);
+	// 	$(this).next('.page-sub-section--toggle-block').fadeToggle(500);
+	// });
+
+	$('.top-block-trigger').click(function() {
+		$('.top-block-toggle').fadeToggle(500);
 	});
-
-
+	$('.bottom-block-trigger').click(function() {
+		$('.bottom-block-toggle').fadeToggle(500);
+	});
     
 });
