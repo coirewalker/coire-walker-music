@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$primary-font-gray".
-        on line 18 of css/index.scss
+Error: Undefined variable: "$primary-font-light".
+        on line 23 of css/index.scss
 
-13: 		letter-spacing: -2px;
-14:     	text-shadow: 0px 1px 2px #000;
-15:     	margin-top: 10px;
-16: 	}
-17: 	h1 {
-18: 		color: $primary-font-gray;
-19: 		font-size: 43px;
-20: 	}
-21: 	h3 {
-22: 		color: $primary-font-light;
-23: 		font-size: 18px;
+18: 	h1 {
+19: 		color: #fff;
+20: 		font-size: 43px;
+21: 	}
+22: 	h3 {
+23: 		color: $primary-font-light;
+24: 		font-size: 18px;
+25: 		font-family: 'Montserrat Alternates', sans-serif;
+26: 		letter-spacing: -1px;
+27: 		font-weight: 400;
+28: 	}
 
 Backtrace:
-css/index.scss:18
+css/index.scss:23
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -79,4 +79,4 @@ css/index.scss:18
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-font-gray\".\A         on line 18 of css/index.scss\A \A 13: 		letter-spacing: -2px;\A 14:     	text-shadow: 0px 1px 2px #000;\A 15:     	margin-top: 10px;\A 16: 	}\A 17: 	h1 {\A 18: 		color: $primary-font-gray;\A 19: 		font-size: 43px;\A 20: 	}\A 21: 	h3 {\A 22: 		color: $primary-font-light;\A 23: 		font-size: 18px;"; }
+  content: "Error: Undefined variable: \"$primary-font-light\".\A         on line 23 of css/index.scss\A \A 18: 	h1 {\A 19: 		color: #fff;\A 20: 		font-size: 43px;\A 21: 	}\A 22: 	h3 {\A 23: 		color: $primary-font-light;\A 24: 		font-size: 18px;\A 25: 		font-family: 'Montserrat Alternates', sans-serif;\A 26: 		letter-spacing: -1px;\A 27: 		font-weight: 400;\A 28: 	}"; }
