@@ -5,19 +5,18 @@
 
 .hero {
 	position: absolute;
-    bottom: 17%;
+    bottom: 26%;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
 	h1, h3 {
 		transform: skewY(-3deg);
 		transform-origin: 100% 0;
-		letter-spacing: -2px;
-    	text-shadow: 0px 1px 2px #000;
+		letter-spacing: -5px;
     	margin-top: 10px;
 	}
 	h1 {
-		color: $primary-font-gray;
+		color: #fff;
 		font-size: 43px;
 	}
 	h3 {
@@ -32,6 +31,7 @@
 // iPhone 6 landscape 
 @media (min-width: 667px) {
 	.hero {
+		bottom: 17%;
 		h1 {
 			font-size: 51px;
 		}
@@ -81,6 +81,13 @@
 	padding-top: 0;	
 }
 
+@media (min-width: 769px) {
+	.shows-bg-wrap {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+
 .contact-bg-wrap .page-section {
 	padding-top: 10px;
 }
@@ -120,6 +127,9 @@
 // ABOUT 
 .about-bg-wrap {
 	background-color: #fff;
+	h2, p {
+		color: $about-font-gray;
+	}
 }
 
 
@@ -138,18 +148,20 @@
 
 #music {
 	.page-sub-section--title h2 {
-		color: #000;
+		color: $primary-font-gray-dark;
 	}
 
-	.page-sub-section--title h3 {
-		padding: 0;
-		margin: 0;
+	.page-sub-section--title .see-hear h3 {
 		-ms-transition:.5s;
 		-moz-transition:.5s;
 		-webkit-transition:.5s;
 		transition:.5s;
-		&:hover h3 {
-			color: $primary-font-gray-light;
+		padding: 0;
+		margin: 0;
+	}
+	.page-sub-section--title .see-hear:hover {
+		h3 {
+			color: $primary-font-gray-dark;
 		}
 	}
 }
@@ -166,7 +178,7 @@
 
 .video-wrapper {
 	transform: skewY(3deg);
-		transform-origin: 100% 0;
+	transform-origin: 100% 0;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	position: relative;
@@ -190,7 +202,7 @@
 .sc-item {
 	margin-top: 35px;
 	transform: skewY(3deg);
-		transform-origin: 100% 0;
+	transform-origin: 100% 0;
 }
 
 .sc-it1qem:first-of-type {
@@ -203,9 +215,15 @@
 
 // SHOWS
 .shows-bg-wrap {
-	background-color: #fff;
+	background: rgba(237, 242, 172, 0.25);
 	position: relative;
-	z-index: 0;
+	z-index: -1;
+	transform: skewY(3deg);
+	transform-origin: 100% 0;
+	.page-section {
+		transform: skewY(-3deg);
+		transform-origin: 100% 0;
+	}
 }
 .shows-outer-wrap {
 	.row {
@@ -256,23 +274,14 @@
 	background-image: url("../images/broken-noise.png");
 	background-repeat: repeat;
 	position: relative;
-	z-index: 1;
-	&:before {
-	    background: inherit;
-	    content: '';
-	    display: block;
-	    height: 50%;
-	    left: 0;
-	    position: absolute;
-	    right: 0;
-	    z-index: -1;
-	    -webkit-backface-visibility: hidden; // for Chrome Windows
+	z-index: 0;
+	transform: skewY(3deg);
+	transform-origin: 100% 0;
+	padding-bottom: 75px;
+	.page-section {
+		transform: skewY(-3deg);
+		transform-origin: 100% 0;
 	}
-	&:before {
-	    top: 0;
-	    transform: skewY(3deg);
-	    transform-origin: 100% 0;
-  }
 }
 
 .contact-title h2 {
@@ -309,7 +318,7 @@
 		padding: 5px;
 	}
 	li a {
-		color: #fff;	
+		color: $seafoam-highlight;	
 	}
 }
 

@@ -1,5 +1,8 @@
+body {
+  margin-bottom: -50px; }
+
 .site-bg {
-  background: url("../images/cwm-bg.jpg");
+  background: linear-gradient(rgba(237, 242, 172, 0.25), rgba(0, 224, 205, 0.35)), url("../images/cwm-bg.jpg");
   background-size: cover;
   position: relative;
   background-repeat: none;
@@ -13,7 +16,7 @@
 
 @media (min-width: 769px) {
   .site-bg {
-    background: url("../images/cwm-bg-desktop.jpg");
+    background: linear-gradient(rgba(237, 242, 172, 0.25), rgba(0, 224, 205, 0.35)), url("../images/cwm-bg-desktop.jpg");
     background-size: cover;
     position: relative;
     background-repeat: none;
@@ -22,6 +25,12 @@
     height: 80vh;
     width: 100%;
     background-position: center top; } }
+a {
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
 h1, h2, h3, h4, h5, p, a {
   font-family: 'Montserrat', sans-serif;
   color: #000;
@@ -55,8 +64,11 @@ p {
   font-family: 'Montserrat Alternates', sans-serif;
   text-align: left; }
 
-a:hover, a:focus {
-  color: #5C5758;
+@media (min-width: 768px) {
+  p {
+    font-size: 18px; } }
+a:hover, a:focus, a:active {
+  color: #98F0E2;
   text-decoration: none; }
 
 .spacer {
