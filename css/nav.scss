@@ -4,7 +4,7 @@
 }
 
 .top-animate {
-	background: #fff !important;
+	background: $primary-font-gray-dark !important;
 	top: 13px !important;
 	-webkit-transform: rotate(45deg);
 	/* Chrome, Safari, Opera */
@@ -14,7 +14,7 @@
 .mid-animate { opacity: 0; }
 
 .bottom-animate {
-	background: #fff !important;
+	background: $primary-font-gray-dark !important;
 	top: 13px !important;
 	-webkit-transform: rotate(-225deg);
 	/* Chrome, Safari, Opera */
@@ -109,7 +109,7 @@
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,.85);
+	background: rgba(249, 247, 224, 0.9);
 	opacity: 1;
 }
 
@@ -121,17 +121,17 @@
 
 .mobilenav li a {
 	font-size: 150%;
-	color: #fff;
+	color: $primary-font-gray-dark;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: 300;
+	font-weight: 700;
 	width: 100%;
 	-ms-transition:.5s;
 	-moz-transition:.5s;
 	-webkit-transition:.5s;
 	transition:.5s;
   &:hover, &:active {
-  		color: $yellow-highlight;
+  		color: $primary-font-gray;
   }
 }
 
