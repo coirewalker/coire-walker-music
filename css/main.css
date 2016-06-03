@@ -191,7 +191,7 @@ a:hover, a:focus, a:active {
     color: #FBFF8A; }
 
 .mobilenav li:first-child {
-  margin-top: 30px; }
+  margin-top: 15px; }
 
 @media (min-width: 768px) {
   .mobilenav li a {
@@ -292,7 +292,7 @@ a:hover, a:focus, a:active {
   background: #EBEBEB;
   transform: skewY(-3deg);
   transform-origin: 100% 0;
-  border-top: 3px double #5C5758;
+  border-top: 3px double #CFCFCF;
   border-bottom: 3px double #5C5758; }
   .music-bg-wrap .page-sub-section--title {
     transform: skewY(3deg);
@@ -311,9 +311,12 @@ a:hover, a:focus, a:active {
   color: #5C5758; }
 
 .page-sub-section--title {
-  margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 10px; }
+  .page-sub-section--title ul {
+    padding-left: 0; }
+  .page-sub-section--title li {
+    list-style: none; }
 
 .page-sub-section--toggle-block {
   display: none; }
