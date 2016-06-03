@@ -1,5 +1,5 @@
 body {
-  margin-bottom: -50px; }
+  margin-bottom: -200px; }
 
 .site-bg {
   background: linear-gradient(rgba(237, 242, 172, 0.25), rgba(0, 224, 205, 0.35)), url("../images/cwm-bg.jpg");
@@ -268,7 +268,7 @@ a:hover, a:focus, a:active {
   width: 65px;
   height: 65px;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid #98F0E2;
   margin: 0 auto;
   display: block; }
 
@@ -276,7 +276,7 @@ a:hover, a:focus, a:active {
   width: 65px;
   height: 65px;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid #FBFF8A;
   margin: 0 auto;
   display: inline; }
 
@@ -292,7 +292,9 @@ a:hover, a:focus, a:active {
 .music-bg-wrap {
   background: #EBEBEB;
   transform: skewY(-3deg);
-  transform-origin: 100% 0; }
+  transform-origin: 100% 0;
+  border-top: 3px double #5C5758;
+  border-bottom: 3px double #5C5758; }
   .music-bg-wrap .page-sub-section--title {
     transform: skewY(3deg);
     transform-origin: 100% 0; }
@@ -347,8 +349,10 @@ a:hover, a:focus, a:active {
   margin-top: 0; }
 
 .shows-bg-wrap {
-  background: rgba(237, 242, 172, 0.25);
+  background: -webkit-linear-gradient(left, #fafdd4, rgba(251, 255, 212, 0.65)), url("../images/shows-bg.png");
   position: relative;
+  background-size: cover;
+  background-repeat: none;
   z-index: -1;
   transform: skewY(3deg);
   transform-origin: 100% 0; }
@@ -370,12 +374,13 @@ a:hover, a:focus, a:active {
     text-align: center; }
   .shows-wrapper-row h3 {
     font-weight: 400;
-    font-size: 18px;
-    color: #000; }
-  .shows-wrapper-row h4 {
-    color: #CFCFCF; }
-  .shows-wrapper-row p {
+    font-size: 18px; }
+  .shows-wrapper-row h3, .shows-wrapper-row h4 {
+    color: #5C5758; }
+  .shows-wrapper-row h4, .shows-wrapper-row p {
     font-weight: 700; }
+  .shows-wrapper-row p {
+    color: #CFCFCF; }
 
 @media (min-width: 768px) {
   .shows-wrapper-row h3 {
@@ -390,7 +395,7 @@ a:hover, a:focus, a:active {
   z-index: 0;
   transform: skewY(3deg);
   transform-origin: 100% 0;
-  padding-bottom: 75px; }
+  padding-bottom: 200px; }
   .contact-bg-wrap .page-section {
     transform: skewY(-3deg);
     transform-origin: 100% 0; }
@@ -419,6 +424,16 @@ a:hover, a:focus, a:active {
   display: inline-block;
   padding: 5px; }
 .contact-icons li a {
-  color: #98F0E2; }
+  color: #98F0E2;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+  .contact-icons li a:hover {
+    color: #fff; }
+
+.watermark h5 {
+  color: #FBFF8A;
+  font-size: 10px; }
 
 /*# sourceMappingURL=main.css.map */
