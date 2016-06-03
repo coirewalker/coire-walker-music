@@ -353,6 +353,7 @@ a:hover, a:focus, a:active {
   background: -webkit-linear-gradient(left, #fafdd4, rgba(251, 255, 212, 0.65)), url("../images/shows-bg.png");
   position: relative;
   background-size: cover;
+  background-position: right;
   background-repeat: none;
   z-index: -1;
   transform: skewY(3deg);
@@ -378,14 +379,15 @@ a:hover, a:focus, a:active {
     margin: 0;
     text-align: center; }
   .shows-wrapper-row h3 {
-    font-weight: 400;
     font-size: 18px; }
   .shows-wrapper-row h3, .shows-wrapper-row h4 {
     color: #5C5758; }
-  .shows-wrapper-row h4, .shows-wrapper-row p {
+  .shows-wrapper-row h3, .shows-wrapper-row h4 {
     font-weight: 700; }
   .shows-wrapper-row p {
-    color: #CFCFCF; }
+    color: #CFCFCF;
+    font-weight: 500;
+    letter-spacing: -1px; }
 
 @media (min-width: 768px) {
   .shows-wrapper-row h3 {
