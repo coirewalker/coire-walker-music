@@ -140,7 +140,7 @@
   	background: $primary-font-gray-light;
 	transform: skewY(-3deg);
 	transform-origin: 100% 0;
-	border-top: 3px double $primary-font-gray-dark;
+	border-top: 3px double $primary-font-gray;
 	border-bottom: 3px double $primary-font-gray-dark;
 	.page-sub-section--title {
 		transform: skewY(3deg);
@@ -169,9 +169,15 @@
 }
 
 .page-sub-section--title {
-	margin: 0 auto;
+	// margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	ul {
+		padding-left: 0;
+	}
+	li {
+		list-style: none;
+	}
 }
 
 .page-sub-section--toggle-block {
