@@ -295,7 +295,8 @@
 	z-index: 0;
 	transform: skewY(3deg);
 	transform-origin: 100% 0;
-	padding-bottom: 200px;
+	// padding-bottom: 200px;
+	padding-bottom: 50px;
 	.page-section {
 		transform: skewY(-3deg);
 		transform-origin: 100% 0;
@@ -352,5 +353,13 @@
 	font-size: 10px;
 }
 
-
+.footer-spacer {
+	background-color: #000000;
+	background-image: url("../images/broken-noise.png");
+	background-repeat: repeat;
+	position: relative;
+	z-index: 0;
+	height: 75px;
+	margin-top: -75px;
+}
 
