@@ -145,7 +145,7 @@ a:hover, a:focus, a:active {
   width: 32px;
   margin: 0px;
   top: 10px;
-  right: 30px; }
+  right: 25px; }
 
 @media (min-width: 768px) {
   .ham-icon {
@@ -241,12 +241,16 @@ a:hover, a:focus, a:active {
   padding-top: 30px;
   padding-bottom: 30px; }
 
-.about-bg-wrap, .contact-bg-wrap {
+.about-bg-wrap {
   padding-bottom: 0;
   padding-top: 0; }
 
 .music-bg-wrap {
   padding-top: 30px;
+  padding-bottom: 0; }
+
+.contact-bg-wrap {
+  padding-top: 3px;
   padding-bottom: 0; }
 
 .shows-bg-wrap {
@@ -420,7 +424,8 @@ a:hover, a:focus, a:active {
   padding-bottom: 5px; }
 .contact-info h3 {
   color: #CFCFCF;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 25px; }
 .contact-info h4 {
   font-size: 16px;
   color: #fff; }
