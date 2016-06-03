@@ -245,6 +245,12 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid $primary-font-gray-light;
+	&:last-of-type {
+		border-bottom: none;
+	}
+	.shows-item {
+		padding: 0;
+	}
 	h3, h4, p {
 		padding: 0;
 		margin: 0;
