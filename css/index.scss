@@ -318,11 +318,16 @@
 		margin: 0;
 		padding-bottom: 10px;
 	}
+	h4:first-of-type {
+		padding-top: 10px;
+		padding-bottom: 5px;
+	}
 	h3 {
 		color: $primary-font-gray;
 		font-weight: 400;
 	}
 	h4 {
+		font-size: 16px;
 		color: #fff;
 	}
 	a {
