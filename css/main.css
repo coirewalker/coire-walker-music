@@ -370,6 +370,10 @@ a:hover, a:focus, a:active {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #EBEBEB; }
+  .shows-wrapper-row:last-of-type {
+    border-bottom: none; }
+  .shows-wrapper-row .shows-item {
+    padding: 0; }
   .shows-wrapper-row h3, .shows-wrapper-row h4, .shows-wrapper-row p {
     padding: 0;
     margin: 0;
