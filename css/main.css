@@ -294,11 +294,18 @@ a:hover, a:focus, a:active {
   transform: skewY(-3deg);
   transform-origin: 100% 0;
   border-top: 3px double #CFCFCF;
-  border-bottom: 3px double #5C5758; }
+  border-bottom: 3px double #CFCFCF; }
   .music-bg-wrap .page-sub-section--title {
     transform: skewY(3deg);
     transform-origin: 100% 0; }
+  .music-bg-wrap .col-xsm-12, .music-bg-wrap .col-sm-10 {
+    padding-left: 0;
+    padding-right: 0; }
 
+@media (min-width: 736px) {
+  .music-bg-wrap .col-xsm-12, .music-bg-wrap .col-sm-10 {
+    padding-left: 15px;
+    padding-right: 15px; } }
 #music .page-sub-section--title h2 {
   color: #5C5758; }
 #music .page-sub-section--title .see-hear h3 {
@@ -327,12 +334,10 @@ a:hover, a:focus, a:active {
 .video-wrapper {
   transform: skewY(3deg);
   transform-origin: 100% 0;
-  margin-top: 10px;
-  margin-bottom: 10px;
   position: relative;
   padding-bottom: 56.25%;
   /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
-  margin-top: 30px;
+  margin-top: 45px;
   height: 0;
   overflow: hidden; }
   .video-wrapper iframe {
@@ -345,12 +350,15 @@ a:hover, a:focus, a:active {
 .video-wrapper:first-of-type {
   margin-top: 0; }
 
+.video-wrapper:last-of-type {
+  margin-bottom: 20px; }
+
 .sc-item {
-  margin-top: 35px;
+  margin-top: 40px;
   transform: skewY(3deg);
   transform-origin: 100% 0; }
 
-.sc-it1qem:first-of-type {
+.sc-item:first-of-type {
   margin-top: 0; }
 
 .shows-bg-wrap {
@@ -406,7 +414,7 @@ a:hover, a:focus, a:active {
   z-index: 0;
   transform: skewY(3deg);
   transform-origin: 100% 0;
-  padding-bottom: 50px; }
+  padding-bottom: 60px; }
   .contact-bg-wrap .page-section {
     transform: skewY(-3deg);
     transform-origin: 100% 0; }
