@@ -338,6 +338,9 @@
 	}
 	a {
 		color: $primary-font-gray-light;
+		&:hover {
+			color: $primary-font-gray-dark;
+		}
 	}
 }
 
