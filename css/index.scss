@@ -146,10 +146,25 @@
 	transform: skewY(-3deg);
 	transform-origin: 100% 0;
 	border-top: 3px double $primary-font-gray;
-	border-bottom: 3px double $primary-font-gray-dark;
+	border-bottom: 3px double $primary-font-gray;
 	.page-sub-section--title {
 		transform: skewY(3deg);
 		transform-origin: 100% 0;
+	}
+	// display full width for videos and soundcloud on phones
+	.col-xsm-12, .col-sm-10 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+// iPhone 6 Plus landscape max full width without padding for videos and soundcloud
+@media (min-width: 736px) {
+	.music-bg-wrap {
+		.col-xsm-12, .col-sm-10 {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
 	}
 }
 
@@ -177,7 +192,6 @@
 }
 
 .page-sub-section--title {
-	// margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	ul {
@@ -195,11 +209,9 @@
 .video-wrapper {
 	transform: skewY(3deg);
 	transform-origin: 100% 0;
-	margin-top: 10px;
-	margin-bottom: 10px;
 	position: relative;
     padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
-    margin-top: 30px;
+    margin-top: 45px;
     height: 0;
     overflow: hidden;
     iframe {
@@ -215,13 +227,17 @@
 	margin-top: 0;
 }
 
+.video-wrapper:last-of-type {
+	margin-bottom: 20px;
+}
+
 .sc-item {
-	margin-top: 35px;
+	margin-top: 40px;
 	transform: skewY(3deg);
 	transform-origin: 100% 0;
 }
 
-.sc-it1qem:first-of-type {
+.sc-item:first-of-type {
 	margin-top: 0;
 }
 
@@ -305,7 +321,7 @@
 	z-index: 0;
 	transform: skewY(3deg);
 	transform-origin: 100% 0;
-	padding-bottom: 50px;
+	padding-bottom: 60px;
 	.page-section {
 		transform: skewY(-3deg);
 		transform-origin: 100% 0;
