@@ -273,9 +273,6 @@
 	&:last-of-type {
 		border-bottom: none;
 	}
-	.shows-item {
-		padding: 0;
-	}
 	h3, h4, p {
 		padding: 0;
 		margin: 0;
@@ -295,6 +292,30 @@
 		font-weight: 500;
 		letter-spacing: -1px;
 	}
+	.shows-item {
+		padding: 0;
+		a {
+			color: $primary-font-gray-dark;
+			text-align: right;
+		}
+	}
+	.shows-date {
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+		h3, a {
+			display: inline-block;
+			&:hover {
+			cursor: pointer;
+			color: $primary-font-gray;
+			}
+		}
+		i {
+			color: $primary-font-gray-dark;
+			padding-right: 5px;
+		}
+	}
 }
 
 @media (min-width: 768px) {
@@ -305,6 +326,9 @@
 		h4 {
 			text-align: left;
 		}
+	}
+	.col-md-4 {
+		text-align: right;
 	}
 }
 
