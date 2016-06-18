@@ -299,23 +299,6 @@
 			text-align: right;
 		}
 	}
-	.shows-date {
-		-ms-transition:.5s;
-		-moz-transition:.5s;
-		-webkit-transition:.5s;
-		transition:.5s;
-		h3, a {
-			display: inline-block;
-			&:hover {
-			cursor: pointer;
-			color: $primary-font-gray;
-			}
-		}
-		i {
-			color: $primary-font-gray-dark;
-			padding-right: 5px;
-		}
-	}
 }
 
 @media (min-width: 768px) {
