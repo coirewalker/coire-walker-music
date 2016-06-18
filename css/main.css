@@ -403,19 +403,6 @@ a:hover, a:focus, a:active {
     .shows-wrapper-row .shows-item a {
       color: #5C5758;
       text-align: right; }
-  .shows-wrapper-row .shows-date {
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s; }
-    .shows-wrapper-row .shows-date h3, .shows-wrapper-row .shows-date a {
-      display: inline-block; }
-      .shows-wrapper-row .shows-date h3:hover, .shows-wrapper-row .shows-date a:hover {
-        cursor: pointer;
-        color: #CFCFCF; }
-    .shows-wrapper-row .shows-date i {
-      color: #5C5758;
-      padding-right: 5px; }
 
 @media (min-width: 768px) {
   .shows-wrapper-row h3 {
