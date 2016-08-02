@@ -247,7 +247,7 @@ a:hover, a:focus, a:active {
 
 .music-bg-wrap {
   padding-top: 30px;
-  padding-bottom: 0; }
+  padding-bottom: 25px; }
 
 .contact-bg-wrap {
   padding-top: 3px;
@@ -255,11 +255,11 @@ a:hover, a:focus, a:active {
 
 .shows-bg-wrap {
   padding-bottom: 30px;
-  padding-top: 40px; }
+  padding-top: 30px; }
 
 @media (min-width: 769px) {
   .shows-bg-wrap {
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 50px; } }
 .contact-bg-wrap .page-section {
   padding-top: 30px; }
@@ -293,8 +293,7 @@ a:hover, a:focus, a:active {
   background: #EBEBEB;
   transform: skewY(-3deg);
   transform-origin: 100% 0;
-  border-top: 3px double #CFCFCF;
-  border-bottom: 3px double #CFCFCF; }
+  border-top: 3px double #CFCFCF; }
   .music-bg-wrap .page-sub-section--title {
     transform: skewY(3deg);
     transform-origin: 100% 0; }
@@ -362,12 +361,13 @@ a:hover, a:focus, a:active {
   margin-top: 0; }
 
 .shows-bg-wrap {
-  background: -webkit-linear-gradient(left, #fafdd4, rgba(251, 255, 212, 0.65)), url("../images/shows-bg.png");
+  background: -webkit-linear-gradient(left, #fafdd4, rgba(251, 255, 212, 0.8)), url("../images/shows-bg.png");
   position: relative;
   background-size: cover;
   background-position: right;
   background-repeat: none;
-  z-index: -1;
+  z-index: 1;
+  border-top: 3px double #CFCFCF;
   transform: skewY(3deg);
   transform-origin: 100% 0; }
   .shows-bg-wrap .page-section {
