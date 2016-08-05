@@ -464,6 +464,17 @@ a:hover, a:focus, a:active {
   .contact-icons li a:hover {
     color: #fff; }
 
+.lessons {
+  margin-top: 20px; }
+  .lessons p {
+    color: #EBEBEB;
+    text-align: center;
+    font-size: 14px; }
+  .lessons a {
+    color: #FBFF8A; }
+  .lessons a:hover {
+    color: #5C5758; }
+
 .watermark h5 {
   color: #FBFF8A;
   font-size: 10px; }
