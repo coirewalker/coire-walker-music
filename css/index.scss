@@ -389,6 +389,21 @@
 	}
 }
 
+.lessons {
+	margin-top: 20px;
+	p {
+		color: $primary-font-gray-light;
+		text-align: center;
+		font-size: 14px;
+	}
+	a {
+		color: $yellow-highlight;
+	}
+	a:hover {
+		color: $primary-font-gray-dark;
+	}
+}
+
 .watermark h5 {
 	color: $yellow-highlight;
 	font-size: 10px;
