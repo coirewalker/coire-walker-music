@@ -211,6 +211,7 @@ a:hover, a:focus, a:active {
   transform: translateX(-50%);
   width: 100%; }
   .hero h1, .hero h3 {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
     transform: skewY(-3deg);
     transform-origin: 100% 0;
     letter-spacing: -3px;
@@ -492,14 +493,17 @@ a:hover, a:focus, a:active {
   height: 75px;
   margin-top: -75px; }
 
+.press-body-wrap {
+  background: url("../images/bg-noise-green.png"); }
+
 .press-bg {
-  background: linear-gradient(rgba(237, 242, 172, 0.25), rgba(0, 224, 205, 0.35)), url("../images/cwm-bg.jpg");
+  background: linear-gradient(rgba(237, 242, 172, 0.25), rgba(0, 224, 205, 0.35)), url("../images/vintage-rock.jpg");
   background-size: cover;
   position: relative;
   background-repeat: none;
   top: 0;
   left: 0;
-  height: 66vh;
+  height: 80vh;
   width: 100%;
   background-position: center top;
   transform: skewY(3deg);
@@ -507,19 +511,23 @@ a:hover, a:focus, a:active {
 
 @media (min-width: 769px) {
   .press-bg {
-    background: linear-gradient(rgba(237, 242, 172, 0.25), rgba(0, 224, 205, 0.35)), url("../images/cwm-bg-desktop.jpg");
+    background: linear-gradient(rgba(237, 242, 172, 0.25), rgba(0, 224, 205, 0.35)), url("../images/vintage-rock-desktop.jpg");
     background-size: cover;
     position: relative;
     background-repeat: none;
     top: 0;
     left: 0;
-    height: 66vh;
+    height: 65vh;
     width: 100%;
     background-position: center top;
     transform: skewY(3deg);
     transform-origin: 100% 0; } }
-.press-bio h2, .press-photos h2, .press-video h2, .press-social h2 {
-  margin-bottom: 10px; }
+.press-bio h2, .press-photos h2, .press-video h2, .press-social h2, .press-bookings h2, .press-press h2 {
+  margin-bottom: 10px;
+  color: #009688; }
+
+.press-press p {
+  font-weight: 400; }
 
 .press-image-wrap {
   margin: 0 auto; }
@@ -542,8 +550,17 @@ a:hover, a:focus, a:active {
     width: 100%;
     height: 100%; }
 
+.press-bookings a {
+  text-transform: uppercase;
+  font-weight: bold; }
+.press-bookings a:hover {
+  color: #CFCFCF;
+  cursor: pointer; }
+
+.contact-icons .fa-2x {
+  font-size: 2.3em; }
 .contact-icons .press-icons a {
-  color: #5C5758; }
+  color: #000; }
 .contact-icons .press-icons a:hover {
   color: #CFCFCF; }
 

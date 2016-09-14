@@ -1,16 +1,20 @@
+.press-body-wrap {
+	background: url('../images/bg-noise-green.png');
+}
+
 .press-bg {	    
 	background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(rgba(237, 242, 172, 0.25), 
     rgba(0, 224, 205, 0.35)),  
     /* bottom image bg */
-    url("../images/cwm-bg.jpg");
+    url('../images/vintage-rock.jpg');
     background-size: cover;
     position: relative;
     background-repeat: none;
     top: 0;
     left: 0;
-    height: 66vh;
+    height: 80vh;
     width: 100%;
     background-position: center top;
     transform: skewY(3deg);
@@ -24,13 +28,13 @@
 	    linear-gradient(rgba(237, 242, 172, 0.25), 
 	    rgba(0, 224, 205, 0.35)),  
 	    /* bottom image bg */
-		url('../images/cwm-bg-desktop.jpg');
+		url('../images/vintage-rock-desktop.jpg');
 		background-size: cover;
 	    position: relative;
 	    background-repeat: none;
 	    top: 0;
 	    left: 0;
-	    height: 66vh;
+	    height: 65vh;
 	    width: 100%;
 	    background-position: center top;
 	    transform: skewY(3deg);
@@ -38,10 +42,15 @@
 	}
 }
 
-.press-bio, .press-photos, .press-video, .press-social {
+.press-bio, .press-photos, .press-video, .press-social, .press-bookings, .press-press {
 	h2 {
 		margin-bottom: 10px;
+		color: $dark-seafoam;
 	}
+}
+
+.press-press p {
+	font-weight: 400;
 }
 
 .press-image-wrap {
@@ -68,9 +77,23 @@
     }
 }
 
+.press-bookings {
+	a {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	a:hover {
+		color: $primary-font-gray;
+		cursor: pointer;
+	}
+}
+
 .contact-icons {
+	.fa-2x {
+		font-size: 2.3em;
+	}
 	.press-icons a {
-		color: $primary-font-gray-dark;
+		color: $black;
 	}	
 	.press-icons a:hover {
 		color: $primary-font-gray;
