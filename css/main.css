@@ -536,6 +536,9 @@ a:hover, a:focus, a:active {
   height: 100px;
   width: 100px; }
 
+.press-video h2 {
+  text-align: center; }
+
 .press-video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
