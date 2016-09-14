@@ -50,7 +50,8 @@ $primary-font-gray: #CFCFCF;
 $primary-font-gray-dark: #5C5758;
 $seafoam-highlight: #98F0E2;
 $yellow-highlight: #FBFF8A;
-
+$black: #000;
+$dark-seafoam: #009688;
 
 
 
@@ -61,6 +62,7 @@ a {
 	-webkit-transition:.5s;
 	transition:.5s;
 }
+
 h1, h2, h3, h4, h5, p, a {
 	font-family: 'Montserrat', sans-serif;
 	color: #000;
@@ -79,6 +81,7 @@ h1 {
 h2, h3 {	
 	font-weight: 700;
 	text-align: center;
+	color: $primary-font-gray-dark;
 }
 
 h2 {
@@ -97,7 +100,8 @@ h3 {
 
 p {
 	font-family: 'Montserrat Alternates', sans-serif;
-	text-align: left;
+	text-align: left;	
+	color: $primary-font-gray-dark;
 }
 
 @media (min-width: 768px) {
