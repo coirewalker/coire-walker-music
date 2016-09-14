@@ -43,7 +43,8 @@ h1 {
 
 h2, h3 {
   font-weight: 700;
-  text-align: center; }
+  text-align: center;
+  color: #5C5758; }
 
 h2 {
   letter-spacing: -2px;
@@ -59,7 +60,8 @@ h3 {
 
 p {
   font-family: 'Montserrat Alternates', sans-serif;
-  text-align: left; }
+  text-align: left;
+  color: #5C5758; }
 
 @media (min-width: 768px) {
   p {

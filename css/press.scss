@@ -37,3 +37,50 @@
 		transform-origin: 100% 0;
 	}
 }
+
+.press-bio, .press-photos, .press-video, .press-social {
+	h2 {
+		margin-bottom: 10px;
+	}
+}
+
+.press-image-wrap {
+	margin: 0 auto;
+}
+
+.press-image {
+	height: 100px;
+	width: 100px;
+}
+	
+.press-video-wrapper {
+	position: relative;
+    padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    height: 0;
+    overflow: hidden;
+    margin-top: 20px;
+    iframe {
+    	position: absolute;
+	    top: 0; 
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+    }
+}
+
+.contact-icons {
+	.press-icons a {
+		color: $primary-font-gray-dark;
+	}	
+	.press-icons a:hover {
+		color: $primary-font-gray;
+	}
+}
+
+
+
+
+
+
+
+
