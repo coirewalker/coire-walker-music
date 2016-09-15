@@ -497,7 +497,7 @@ a:hover, a:focus, a:active {
   background: url("../images/bg-noise-green.png"); }
 
 .press-bg {
-  background: linear-gradient(rgba(237, 242, 172, 0.25), rgba(0, 224, 205, 0.35)), url("../images/vintage-rock.jpg");
+  background: linear-gradient(rgba(237, 242, 172, 0.25), rgba(0, 224, 205, 0.35)), url("../images/vintage-rock-fade.jpg");
   background-size: cover;
   position: relative;
   background-repeat: none;
@@ -511,7 +511,7 @@ a:hover, a:focus, a:active {
 
 @media (min-width: 769px) {
   .press-bg {
-    background: linear-gradient(rgba(237, 242, 172, 0.25), rgba(0, 224, 205, 0.35)), url("../images/vintage-rock-desktop.jpg");
+    background: linear-gradient(rgba(237, 242, 172, 0.25), rgba(0, 224, 205, 0.35)), url("../images/vintage-rock-fade-desktop.jpg");
     background-size: cover;
     position: relative;
     background-repeat: none;
