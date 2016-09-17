@@ -538,6 +538,9 @@ a:hover, a:focus, a:active {
 .press-image-wrap {
   margin: 0 auto; }
 
+.thumb-img {
+  padding-bottom: 4px; }
+
 .press-video h2 {
   text-align: center; }
 
