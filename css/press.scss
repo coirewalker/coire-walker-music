@@ -106,13 +106,13 @@
 	}
 	ul {
 		list-style-type: none;
-		padding-left: 10px;
-		text-align: center;
+		padding-left: 0;
 	}
 	li {	
 		font-family: 'Montserrat Alternates', sans-serif;
-		text-align: left;	
+		text-align: center;	
 		color: $primary-font-gray-dark;
+		font-size: 17px;
 	}
 }
 
