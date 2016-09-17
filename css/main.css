@@ -572,12 +572,12 @@ a:hover, a:focus, a:active {
   cursor: pointer; }
 .press-bookings ul {
   list-style-type: none;
-  padding-left: 10px;
-  text-align: center; }
+  padding-left: 0; }
 .press-bookings li {
   font-family: 'Montserrat Alternates', sans-serif;
-  text-align: left;
-  color: #5C5758; }
+  text-align: center;
+  color: #5C5758;
+  font-size: 17px; }
 
 .contact-icons .fa-2x {
   font-size: 2.3em; }
