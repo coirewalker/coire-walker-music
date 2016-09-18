@@ -532,6 +532,12 @@ a:hover, a:focus, a:active {
   margin-bottom: 10px;
   color: #009688; }
 
+.press-audio-item {
+  padding-bottom: 15px; }
+
+.press-audio-item:last-of-type {
+  padding-bottom: 0; }
+
 .press-press p {
   font-weight: 400; }
 

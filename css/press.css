@@ -11,8 +11,8 @@ Error: Undefined variable: "$dark-seafoam".
 55: 	}
 56: }
 57: 
-58: .press-press p {
-59: 	font-weight: 400;
+58: 
+59: 
 
 Backtrace:
 css/press.scss:54
@@ -79,4 +79,4 @@ css/press.scss:54
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$dark-seafoam\".\A         on line 54 of css/press.scss\A \A 49: .press-social, \A 50: .press-bookings, \A 51: .press-press {\A 52: 	h2 {\A 53: 		margin-bottom: 10px;\A 54: 		color: $dark-seafoam;\A 55: 	}\A 56: }\A 57: \A 58: .press-press p {\A 59: 	font-weight: 400;"; }
+  content: "Error: Undefined variable: \"$dark-seafoam\".\A         on line 54 of css/press.scss\A \A 49: .press-social, \A 50: .press-bookings, \A 51: .press-press {\A 52: 	h2 {\A 53: 		margin-bottom: 10px;\A 54: 		color: $dark-seafoam;\A 55: 	}\A 56: }\A 57: \A 58: \A 59: "; }
