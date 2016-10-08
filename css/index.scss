@@ -316,7 +316,18 @@
 	}
 }
 
-
+.page-sub-section--title .tour-copy {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 15px;
+	a {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	a:hover {
+		color: $primary-font-gray-dark;
+	}
+}
 
 
 
