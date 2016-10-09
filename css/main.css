@@ -417,11 +417,11 @@ a:hover, a:focus, a:active {
     text-align: right; } }
 .page-sub-section--title .tour-copy {
   padding-top: 10px;
-  text-align: center;
-  font-size: 15px; }
+  text-align: center; }
   .page-sub-section--title .tour-copy a {
     text-transform: uppercase;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 15px; }
   .page-sub-section--title .tour-copy a:hover {
     color: #5C5758; }
 
