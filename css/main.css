@@ -415,14 +415,14 @@ a:hover, a:focus, a:active {
 
   .col-md-4 {
     text-align: right; } }
-.page-sub-section--title .tour-copy {
+.page-section .tour-copy {
   padding-top: 10px;
   text-align: center; }
-  .page-sub-section--title .tour-copy a {
+  .page-section .tour-copy a {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px; }
-  .page-sub-section--title .tour-copy a:hover {
+  .page-section .tour-copy a:hover {
     color: #5C5758; }
 
 .press-link {
