@@ -377,6 +377,11 @@ a:hover, a:focus, a:active {
     transform: skewY(-3deg);
     transform-origin: 100% 0; }
 
+.shows-text p {
+  margin-top: 10px;
+  color: #747474;
+  text-align: center; }
+
 .shows-outer-wrap .row {
   margin-left: 0;
   margin-right: 0; }
