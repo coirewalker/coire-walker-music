@@ -13,19 +13,20 @@
 		text-shadow: 2px 2px 6px rgba(0,0,0,.4);
 		transform: skewY(-3deg);
 		transform-origin: 100% 0;
-		letter-spacing: -3px;
     	margin-top: 5px;
 	}
 	h1 {
 		color: #fff;
-		font-size: 43px;
+		font-size: 48px;
+		letter-spacing: -3px;
+		font-weight: 700;
 	}
 	h3 {
 		color: $primary-font-light;
-		font-size: 18px;
-		font-family: 'Montserrat Alternates', sans-serif;
-		letter-spacing: -1px;
+		font-size: 17px;
+		font-family: 'Raleway', sans-serif;
 		font-weight: 400;
+		letter-spacing: 1px;
 	}
 }
 
@@ -146,7 +147,7 @@
   	background: $primary-font-gray-light;
 	transform: skewY(-3deg);
 	transform-origin: 100% 0;
-	border-top: 3px double $primary-font-gray;
+	border-top: 3px solid $primary-font-gray;
 	.page-sub-section--title {
 		transform: skewY(3deg);
 		transform-origin: 100% 0;
@@ -247,13 +248,13 @@
 
 // SHOWS
 .shows-bg-wrap {
-	background: -webkit-linear-gradient(left, rgb(250, 253, 212), rgba(251, 255, 212, 0.8)), url("../images/shows-bg.png");
+	background: -webkit-linear-gradient(left, #fcfcfc, rgba(175, 175, 175, 0.8)), url(../images/shows-bg.png);
 	position: relative;
     background-size: cover;
     background-position: right;
     background-repeat: none;
 	z-index: 1;
-	border-top: 3px double $primary-font-gray;
+	border-top: 3px solid $primary-font-gray;
 	transform: skewY(3deg);
 	transform-origin: 100% 0;
 	.page-section {
@@ -286,6 +287,7 @@
 	}
 	h3 {
 		font-size: 18px;
+		text-transform: none;
 	}
 	h3, h4 {
 		color: $primary-font-gray-dark;
@@ -294,16 +296,13 @@
 		font-weight: 700;
 	}
 	p {
-		color: $primary-font-gray;
-		font-weight: 500;
-		letter-spacing: -1px;
+		color: $primary-font-gray-dark;
+		letter-spacing: 1px;
+		padding: 7px 0;
 	}
-	.shows-item {
-		padding: 0;
-		a {
-			color: $primary-font-gray-dark;
-			text-align: right;
-		}
+	a {
+		color: $primary-font-gray-dark;
+		text-align: right;
 	}
 }
 
@@ -318,6 +317,9 @@
 	}
 	.col-md-4 {
 		text-align: right;
+	}
+	.shows-wrapper-row p {
+		line-height: 0;
 	}
 }
 
@@ -340,7 +342,7 @@
 .press-link {
 	padding-bottom: 10px;
 	h4 a {
-	 	color: $yellow-highlight;
+	 	color: $seafoam-highlight;
 	}
 }
 
@@ -376,6 +378,7 @@
 		font-size: 25px;
 	}
 	h4 {
+		font-family: 'Raleway', sans-serif;
 		font-size: 16px;
 		color: #fff;
 	}
@@ -417,7 +420,7 @@
 		font-size: 14px;
 	}
 	a {
-		color: $yellow-highlight;
+		color: $seafoam-highlight;
 	}
 	a:hover {
 		color: $primary-font-gray-dark;
@@ -425,7 +428,7 @@
 }
 
 .watermark h5 {
-	color: $yellow-highlight;
+	color: $seafoam-highlight;
 	font-size: 10px;
 }
 

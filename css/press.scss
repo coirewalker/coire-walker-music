@@ -51,7 +51,7 @@
 .press-press {
 	h2 {
 		margin-bottom: 10px;
-		color: $dark-seafoam;
+		color: $seafoam-dark;
 	}
 }
 
@@ -109,7 +109,6 @@
 .press-bookings {
 	a {
 		text-transform: uppercase;
-		font-weight: bold;
 		color: $primary-font-gray-dark;
 	}
 	a:hover {
@@ -121,7 +120,6 @@
 		padding-left: 0;
 	}
 	li {	
-		font-family: 'Montserrat Alternates', sans-serif;
 		text-align: center;	
 		color: $primary-font-gray-dark;
 		font-size: 17px;
@@ -141,7 +139,7 @@
 }
 
 .press-back-border {
-	border-top: 2px solid $dark-seafoam;
+	border-top: 2px solid $seafoam-dark;
 	padding-bottom: 10px;
 }
 
@@ -149,6 +147,7 @@
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 700;
+	color: $seafoam-dark;
 }
 
 @media (min-width: 768px) {

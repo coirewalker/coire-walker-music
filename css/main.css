@@ -29,24 +29,26 @@ a {
   transition: .5s; }
 
 h1, h2, h3, h4, h5, p, a {
-  font-family: 'Montserrat', sans-serif;
   color: #000;
   text-align: center; }
 
 h1 {
+  font-family: 'Libre Baskerville', serif;
   text-transform: lowercase;
   margin: 0;
   font-weight: 500;
   letter-spacing: -3px;
   line-height: 1;
-  font-size: 40px; }
+  font-size: 50px; }
 
 h2, h3 {
+  font-family: 'Libre Baskerville', serif;
   font-weight: 700;
   text-align: center;
   color: #5C5758; }
 
 h2 {
+  font-size: 25px;
   letter-spacing: -2px;
   text-transform: uppercase;
   margin-top: 0;
@@ -59,7 +61,8 @@ h3 {
   font-size: 28px; }
 
 p {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   text-align: left;
   color: #5C5758; }
 
@@ -70,7 +73,7 @@ a:hover, a:focus, a:active {
   color: #98F0E2;
   text-decoration: none; }
 
-.spacer {
+.btm-pad-10px {
   padding-bottom: 10px; }
 
 * {
@@ -159,7 +162,7 @@ a:hover, a:focus, a:active {
   .ham-icon {
     display: none; } }
 .mobilenav {
-  font-family: inherit;
+  font-family: 'Libre Baskerville', serif;
   top: 0;
   left: 0;
   z-index: 999;
@@ -167,7 +170,7 @@ a:hover, a:focus, a:active {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: rgba(249, 247, 224, 0.9);
+  background: rgba(215, 215, 215, 0.9);
   opacity: 1; }
 
 .mobilenav li {
@@ -214,17 +217,18 @@ a:hover, a:focus, a:active {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
     transform: skewY(-3deg);
     transform-origin: 100% 0;
-    letter-spacing: -3px;
     margin-top: 5px; }
   .hero h1 {
     color: #fff;
-    font-size: 43px; }
+    font-size: 48px;
+    letter-spacing: -3px;
+    font-weight: 700; }
   .hero h3 {
     color: #F1F3F2;
-    font-size: 18px;
-    font-family: 'Montserrat Alternates', sans-serif;
-    letter-spacing: -1px;
-    font-weight: 400; }
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px; }
 
 @media (min-width: 667px) {
   .hero {
@@ -296,7 +300,7 @@ a:hover, a:focus, a:active {
   background: #EBEBEB;
   transform: skewY(-3deg);
   transform-origin: 100% 0;
-  border-top: 3px double #CFCFCF; }
+  border-top: 3px solid #CFCFCF; }
   .music-bg-wrap .page-sub-section--title {
     transform: skewY(3deg);
     transform-origin: 100% 0; }
@@ -364,13 +368,13 @@ a:hover, a:focus, a:active {
   margin-top: 0; }
 
 .shows-bg-wrap {
-  background: -webkit-linear-gradient(left, #fafdd4, rgba(251, 255, 212, 0.8)), url("../images/shows-bg.png");
+  background: -webkit-linear-gradient(left, #fcfcfc, rgba(175, 175, 175, 0.8)), url(../images/shows-bg.png);
   position: relative;
   background-size: cover;
   background-position: right;
   background-repeat: none;
   z-index: 1;
-  border-top: 3px double #CFCFCF;
+  border-top: 3px solid #CFCFCF;
   transform: skewY(3deg);
   transform-origin: 100% 0; }
   .shows-bg-wrap .page-section {
@@ -397,20 +401,19 @@ a:hover, a:focus, a:active {
     margin: 0;
     text-align: center; }
   .shows-wrapper-row h3 {
-    font-size: 18px; }
+    font-size: 18px;
+    text-transform: none; }
   .shows-wrapper-row h3, .shows-wrapper-row h4 {
     color: #5C5758; }
   .shows-wrapper-row h3, .shows-wrapper-row h4 {
     font-weight: 700; }
   .shows-wrapper-row p {
-    color: #CFCFCF;
-    font-weight: 500;
-    letter-spacing: -1px; }
-  .shows-wrapper-row .shows-item {
-    padding: 0; }
-    .shows-wrapper-row .shows-item a {
-      color: #5C5758;
-      text-align: right; }
+    color: #5C5758;
+    letter-spacing: 1px;
+    padding: 7px 0; }
+  .shows-wrapper-row a {
+    color: #5C5758;
+    text-align: right; }
 
 @media (min-width: 768px) {
   .shows-wrapper-row h3 {
@@ -419,7 +422,10 @@ a:hover, a:focus, a:active {
     text-align: left; }
 
   .col-md-4 {
-    text-align: right; } }
+    text-align: right; }
+
+  .shows-wrapper-row p {
+    line-height: 0; } }
 .page-section .tour-copy {
   padding-top: 10px;
   text-align: center; }
@@ -433,7 +439,7 @@ a:hover, a:focus, a:active {
 .press-link {
   padding-bottom: 10px; }
   .press-link h4 a {
-    color: #FBFF8A; }
+    color: #98F0E2; }
 
 .contact-bg-wrap {
   background-color: #000000;
@@ -461,6 +467,7 @@ a:hover, a:focus, a:active {
   font-weight: 400;
   font-size: 25px; }
 .contact-info h4 {
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: #fff; }
 .contact-info a {
@@ -491,12 +498,12 @@ a:hover, a:focus, a:active {
     text-align: center;
     font-size: 14px; }
   .lessons a {
-    color: #FBFF8A; }
+    color: #98F0E2; }
   .lessons a:hover {
     color: #5C5758; }
 
 .watermark h5 {
-  color: #FBFF8A;
+  color: #98F0E2;
   font-size: 10px; }
 
 .footer-spacer {
@@ -585,7 +592,6 @@ a:hover, a:focus, a:active {
 
 .press-bookings a {
   text-transform: uppercase;
-  font-weight: bold;
   color: #5C5758; }
 .press-bookings a:hover {
   color: #CFCFCF;
@@ -594,7 +600,6 @@ a:hover, a:focus, a:active {
   list-style-type: none;
   padding-left: 0; }
 .press-bookings li {
-  font-family: 'Montserrat Alternates', sans-serif;
   text-align: center;
   color: #5C5758;
   font-size: 17px; }
@@ -613,7 +618,8 @@ a:hover, a:focus, a:active {
 .press-back a {
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #009688; }
 
 @media (min-width: 768px) {
   .press-back a {

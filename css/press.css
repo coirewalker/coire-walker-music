@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$dark-seafoam".
+Error: Undefined variable: "$seafoam-dark".
         on line 54 of css/press.scss
 
 49: .press-social, 
@@ -7,7 +7,7 @@ Error: Undefined variable: "$dark-seafoam".
 51: .press-press {
 52: 	h2 {
 53: 		margin-bottom: 10px;
-54: 		color: $dark-seafoam;
+54: 		color: $seafoam-dark;
 55: 	}
 56: }
 57: 
@@ -79,4 +79,4 @@ css/press.scss:54
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$dark-seafoam\".\A         on line 54 of css/press.scss\A \A 49: .press-social, \A 50: .press-bookings, \A 51: .press-press {\A 52: 	h2 {\A 53: 		margin-bottom: 10px;\A 54: 		color: $dark-seafoam;\A 55: 	}\A 56: }\A 57: \A 58: \A 59: "; }
+  content: "Error: Undefined variable: \"$seafoam-dark\".\A         on line 54 of css/press.scss\A \A 49: .press-social, \A 50: .press-bookings, \A 51: .press-press {\A 52: 	h2 {\A 53: 		margin-bottom: 10px;\A 54: 		color: $seafoam-dark;\A 55: 	}\A 56: }\A 57: \A 58: \A 59: "; }
