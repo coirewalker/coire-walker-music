@@ -42,12 +42,12 @@ h1 {
 
 h2, h3 {
   font-weight: 400;
-  text-align: center;
-  color: #5C5758; }
+  text-align: center; }
 
 h2 {
   font-family: 'Crimson Text', serif;
-  font-size: 30px;
+  color: #000;
+  font-size: 35px;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: lowercase;
@@ -71,7 +71,7 @@ p {
 
 @media (min-width: 768px) {
   p {
-    font-size: 18px; } }
+    font-size: 16px; } }
 a:hover, a:focus, a:active {
   color: #98F0E2;
   text-decoration: none; }
