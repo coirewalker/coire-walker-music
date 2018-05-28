@@ -1,5 +1,5 @@
 .site-bg {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.14)), url(../images/mobile.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(25, 157, 246, 0.14)), url(../images/mobile-alt.jpg);
   background-size: cover;
   position: relative;
   background-repeat: none;
@@ -13,7 +13,7 @@
 
 @media (min-width: 736px) {
   .site-bg {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.14)), url(../images/desktop.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(25, 157, 246, 0.14)), url(../images/desktop-alt.jpg);
     background-size: cover;
     position: relative;
     background-repeat: none;
@@ -529,7 +529,7 @@ a:hover, a:focus, a:active {
   background: url("../images/bg-noise-green.png"); }
 
 .press-bg {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.14)), url("../images/press-mobile.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(25, 157, 246, 0.14)), url("../images/press-mobile.jpg");
   background-size: cover;
   position: relative;
   background-repeat: none;
@@ -543,7 +543,7 @@ a:hover, a:focus, a:active {
 
 @media (min-width: 769px) {
   .press-bg {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.14)), url("../images/press-desktop.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(25, 157, 246, 0.14)), url("../images/press-desktop.jpg");
     background-size: cover;
     position: relative;
     background-repeat: none;
