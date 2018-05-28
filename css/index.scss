@@ -69,7 +69,7 @@
 
 @media (min-width: 1025px) {
 	.hero {	    
-		bottom: 12%;
+		bottom: 16%;
 	}
 }
 
@@ -293,7 +293,7 @@
 .shows-wrapper-row {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #c3c3c3;
+	border-bottom: 1px solid #b9b5b5;
 	&:last-of-type {
 		border-bottom: none;
 	}
@@ -326,7 +326,7 @@
 @media (min-width: 768px) {
 	.shows-wrapper-row {
 		h3 {
-			text-align: right;
+			// text-align: right;
 		}
 		h4 {
 			text-align: left;
