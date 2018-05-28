@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$dark-seafoam".
-        on line 54 of css/press.scss
+Error: Undefined variable: "$primary-font-gray-dark".
+        on line 44 of css/press.scss
 
-49: .press-social, 
-50: .press-bookings, 
-51: .press-press {
-52: 	h2 {
-53: 		margin-bottom: 10px;
-54: 		color: $dark-seafoam;
-55: 	}
-56: }
-57: 
-58: 
-59: 
+39: .press-social, 
+40: .press-bookings, 
+41: .press-press {
+42: 	h2 {
+43: 		margin-bottom: 30px;
+44: 		color: $primary-font-gray-dark;
+45: 	}
+46: }
+47: 
+48: 
+49: 
 
 Backtrace:
-css/press.scss:54
+css/press.scss:44
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -79,4 +79,4 @@ css/press.scss:54
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$dark-seafoam\".\A         on line 54 of css/press.scss\A \A 49: .press-social, \A 50: .press-bookings, \A 51: .press-press {\A 52: 	h2 {\A 53: 		margin-bottom: 10px;\A 54: 		color: $dark-seafoam;\A 55: 	}\A 56: }\A 57: \A 58: \A 59: "; }
+  content: "Error: Undefined variable: \"$primary-font-gray-dark\".\A         on line 44 of css/press.scss\A \A 39: .press-social, \A 40: .press-bookings, \A 41: .press-press {\A 42: 	h2 {\A 43: 		margin-bottom: 30px;\A 44: 		color: $primary-font-gray-dark;\A 45: 	}\A 46: }\A 47: \A 48: \A 49: "; }
