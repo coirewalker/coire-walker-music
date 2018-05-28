@@ -34,7 +34,7 @@ body {
 
 
 // COLORS
-$about-font-gray: #747474;
+$about-font-gray: #b5b5b5;
 $primary-font-light: #F1F3F2;
 $primary-font-gray-light: #EBEBEB;
 $primary-font-gray: #CFCFCF;
@@ -76,7 +76,7 @@ h2, h3 {
 
 h2 {
 	font-family: 'Crimson Text', serif;
-	color: $black;
+	color: $primary-font-gray-dark;
 	font-size: 35px;
 	font-weight: bold;
 	letter-spacing: 1px;

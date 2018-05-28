@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$primary-font-light".
-        on line 25 of css/index.scss
+        on line 24 of css/index.scss
 
-20: 		font-size: 48px;
-21: 		font-weight: 700;
-22: 		letter-spacing: 1px;
-23: 	}
-24: 	h3 {
-25: 		color: $primary-font-light;
-26: 		font-size: 14px;
-27: 		font-weight: 400;
-28: 		letter-spacing: 1px;
-29: 	}
-30: }
+19: 		font-size: 48px;
+20: 		font-weight: 700;
+21: 		letter-spacing: 1px;
+22: 	}
+23: 	h3 {
+24: 		color: $primary-font-light;
+25: 		font-size: 14px;
+26: 		font-weight: 400;
+27: 		letter-spacing: 1px;
+28: 	}
+29: }
 
 Backtrace:
-css/index.scss:25
+css/index.scss:24
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/coirewalker1/.rvm/gems/ruby-2.1.2/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -79,4 +79,4 @@ css/index.scss:25
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-font-light\".\A         on line 25 of css/index.scss\A \A 20: 		font-size: 48px;\A 21: 		font-weight: 700;\A 22: 		letter-spacing: 1px;\A 23: 	}\A 24: 	h3 {\A 25: 		color: $primary-font-light;\A 26: 		font-size: 14px;\A 27: 		font-weight: 400;\A 28: 		letter-spacing: 1px;\A 29: 	}\A 30: }"; }
+  content: "Error: Undefined variable: \"$primary-font-light\".\A         on line 24 of css/index.scss\A \A 19: 		font-size: 48px;\A 20: 		font-weight: 700;\A 21: 		letter-spacing: 1px;\A 22: 	}\A 23: 	h3 {\A 24: 		color: $primary-font-light;\A 25: 		font-size: 14px;\A 26: 		font-weight: 400;\A 27: 		letter-spacing: 1px;\A 28: 	}\A 29: }"; }
