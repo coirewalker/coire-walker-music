@@ -5,7 +5,7 @@
 
 .hero {
 	position: absolute;
-    bottom: 26%;
+    bottom: 18%;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
@@ -13,18 +13,17 @@
 		text-shadow: 2px 2px 6px rgba(0,0,0,.4);
 		transform: skewY(-3deg);
 		transform-origin: 100% 0;
-    	margin-top: 5px;
+    	margin-top: 0;
 	}
 	h1 {
 		color: #fff;
 		font-size: 48px;
-		letter-spacing: -3px;
 		font-weight: 700;
+		letter-spacing: 1px;
 	}
 	h3 {
 		color: $primary-font-light;
-		font-size: 17px;
-		font-family: 'Raleway', sans-serif;
+		font-size: 14px;
 		font-weight: 400;
 		letter-spacing: 1px;
 	}
@@ -33,13 +32,23 @@
 // iPhone 6 landscape 
 @media (min-width: 667px) {
 	.hero {
-		bottom: 17%;
 		h1 {
 			font-size: 51px;
 		}
 		h3 {
-			font-size: 21px;
+			font-size: 16px;
 			margin-top: 5px;
+		}
+	}
+}
+
+
+//iPhone landscape 
+@media (min-width: 736px) {
+	.hero {
+		padding-right: 25px;
+		h1, h3 {
+			text-align: right;
 		}
 	}
 }
@@ -50,7 +59,12 @@
 		h1 {
 			font-size: 60px;
 		}
+
 	}
+}
+
+@media (min-width: 1024px) {
+
 }
 
 @media (min-width: 1025px) {
@@ -106,7 +120,7 @@
 	width: 65px;
 	height: 65px;
 	border-radius: 50%;
-	border: 3px solid $seafoam-highlight;
+	border: 3px solid $primary-font-gray-light;
 	margin: 0 auto;
 	display: block;
 }
@@ -139,6 +153,9 @@
 	}
 }
 
+.about-title h2 {
+	padding-bottom: 10px;
+}
 
 
 
@@ -147,7 +164,7 @@
   	background: $primary-font-gray-light;
 	transform: skewY(-3deg);
 	transform-origin: 100% 0;
-	border-top: 3px solid $primary-font-gray;
+	border-top: 2px solid $primary-font-gray;
 	.page-sub-section--title {
 		transform: skewY(3deg);
 		transform-origin: 100% 0;
@@ -254,7 +271,7 @@
     background-position: right;
     background-repeat: none;
 	z-index: 1;
-	border-top: 3px solid $primary-font-gray;
+	border-top: 2px solid $primary-font-gray;
 	transform: skewY(3deg);
 	transform-origin: 100% 0;
 	.page-section {
@@ -276,7 +293,7 @@
 .shows-wrapper-row {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid $primary-font-gray-light;
+	border-bottom: 1px solid #c3c3c3;
 	&:last-of-type {
 		border-bottom: none;
 	}
@@ -286,24 +303,24 @@
 		text-align: center;
 	}
 	h3 {
-		font-size: 18px;
+		font-size: 12px;
 		text-transform: none;
 	}
 	h3, h4 {
 		color: $primary-font-gray-dark;
 	}
-	h3, h4 {
-		font-weight: 700;
-	}
 	p {
 		color: $primary-font-gray-dark;
-		letter-spacing: 1px;
 		padding: 7px 0;
 	}
 	a {
 		color: $primary-font-gray-dark;
 		text-align: right;
 	}
+}
+
+.shows-title {
+	padding-bottom: 30px;
 }
 
 @media (min-width: 768px) {
@@ -340,9 +357,11 @@
 
 // CONTACT
 .press-link {
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	h4 a {
-	 	color: $seafoam-highlight;
+	 	color: $primary-font-gray-dark;
+	 	font-weight: bold;
+    	font-size: 14px;
 	}
 }
 
@@ -363,30 +382,33 @@
 
 .contact-title h2 {
 	color: #fff;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .contact-info {
 	h4, h3 {
 		text-align: center;
 		margin: 0;
-		padding-bottom: 10px;
+		padding-bottom: 13px;
 	}
 	h3 {
 		color: $primary-font-gray;
 		font-weight: 400;
-		font-size: 25px;
+		font-size: 16px;
 	}
 	h4 {
-		font-family: 'Raleway', sans-serif;
-		font-size: 16px;
+		font-size: 14px;
 		color: #fff;
+		font-weight: bold;
 	}
 	a {
 		color: $primary-font-gray-light;
 		&:hover {
 			color: $primary-font-gray-dark;
 		}
+	}
+	.phone {
+		padding-bottom: 5px;
 	}
 }
 
@@ -401,7 +423,7 @@
 		padding: 5px;
 	}
 	li a {
-		color: $seafoam-highlight;	
+		color: $primary-font-gray-dark;	
 		-ms-transition:.5s;
 		-moz-transition:.5s;
 		-webkit-transition:.5s;
@@ -417,10 +439,11 @@
 	p {
 		color: $primary-font-gray-light;
 		text-align: center;
-		font-size: 14px;
+		font-size: 11px;
 	}
 	a {
-		color: $seafoam-highlight;
+		color: $primary-font-gray-dark;
+		font-weight: bold;
 	}
 	a:hover {
 		color: $primary-font-gray-dark;
@@ -428,7 +451,7 @@
 }
 
 .watermark h5 {
-	color: $seafoam-highlight;
+	color: $primary-font-gray-dark;
 	font-size: 10px;
 }
 
