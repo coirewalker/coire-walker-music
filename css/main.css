@@ -73,7 +73,7 @@ p {
   p {
     font-size: 16px; } }
 a:hover, a:focus, a:active {
-  color: #98F0E2;
+  color: #F1F3F2;
   text-decoration: none; }
 
 .btm-pad-10px {
@@ -530,7 +530,7 @@ a:hover, a:focus, a:active {
   background: url("../images/bg-noise-green.png"); }
 
 .press-bg {
-  background: linear-gradient(rgba(237, 242, 172, 0.25), rgba(0, 224, 205, 0.35)), url("../images/vintage-rock-fade.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.14)), url("../images/press-mobile.jpg");
   background-size: cover;
   position: relative;
   background-repeat: none;
@@ -544,7 +544,7 @@ a:hover, a:focus, a:active {
 
 @media (min-width: 769px) {
   .press-bg {
-    background: linear-gradient(rgba(237, 242, 172, 0.25), rgba(0, 224, 205, 0.35)), url("../images/vintage-rock-fade-desktop.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.14)), url("../images/press-desktop.jpg");
     background-size: cover;
     position: relative;
     background-repeat: none;
@@ -562,8 +562,8 @@ a:hover, a:focus, a:active {
 .press-social h2,
 .press-bookings h2,
 .press-press h2 {
-  margin-bottom: 10px;
-  color: #009688; }
+  margin-bottom: 30px;
+  color: #5C5758; }
 
 .press-audio-item {
   padding-bottom: 15px; }
@@ -601,8 +601,7 @@ a:hover, a:focus, a:active {
     width: 100%;
     height: 100%; }
 
-.press-bookings a {
-  text-transform: uppercase;
+.press-bookings a, .press-bookings h4 {
   color: #5C5758; }
 .press-bookings a:hover {
   color: #CFCFCF;
@@ -623,17 +622,27 @@ a:hover, a:focus, a:active {
   color: #CFCFCF; }
 
 .press-back-border {
-  border-top: 2px solid #009688;
+  border-top: 2px solid #000;
   padding-bottom: 10px; }
 
 .press-back a {
-  text-transform: uppercase;
+  font-family: 'Crimson Text', serif;
+  text-transform: lowercase;
+  font-weight: bold;
   font-size: 14px;
-  font-weight: 700;
-  color: #009688; }
+  color: #000; }
+
+.press-back a:hover {
+  color: #CFCFCF; }
 
 @media (min-width: 768px) {
   .press-back a {
     font-size: 20px; } }
+.press-hero {
+  position: absolute;
+  bottom: 14%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
