@@ -38,9 +38,10 @@ $about-font-gray: #b5b5b5;
 $primary-font-light: #F1F3F2;
 $primary-font-gray-light: #EBEBEB;
 $primary-font-gray: #CFCFCF;
-$primary-font-gray-dark: #5C5758;
+$primary-font-gray-dark: #7c7c7c;
 // $seafoam-highlight: #98F0E2;
 // $yellow-highlight: #FBFF8A;
+$almost-black: #292929;
 $black: #000;
 // $seafoam-dark: #009688;
 
@@ -76,10 +77,9 @@ h2, h3 {
 
 h2 {
 	font-family: 'Crimson Text', serif;
-	color: $primary-font-gray-dark;
+	color: $almost-black;
 	font-size: 35px;
 	font-weight: bold;
-	letter-spacing: 1px;
 	text-transform: lowercase;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -88,7 +88,6 @@ h2 {
 h3 {
 	font-family: 'Lora', serif;
 	text-transform: lowercase;
-	letter-spacing: 1px;
 	color: $primary-font-gray;
 	font-size: 20px;
 }

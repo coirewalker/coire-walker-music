@@ -46,10 +46,9 @@ h2, h3 {
 
 h2 {
   font-family: 'Crimson Text', serif;
-  color: #5C5758;
+  color: #292929;
   font-size: 35px;
   font-weight: bold;
-  letter-spacing: 1px;
   text-transform: lowercase;
   margin-top: 0;
   margin-bottom: 0; }
@@ -57,7 +56,6 @@ h2 {
 h3 {
   font-family: 'Lora', serif;
   text-transform: lowercase;
-  letter-spacing: 1px;
   color: #CFCFCF;
   font-size: 20px; }
 
@@ -67,7 +65,7 @@ h4, h5, h6, p {
 p {
   font-weight: 300;
   text-align: left;
-  color: #5C5758; }
+  color: #7c7c7c; }
 
 @media (min-width: 768px) {
   p {
@@ -85,7 +83,7 @@ a:hover, a:focus, a:active {
   /* For some Androids */ }
 
 .top-animate {
-  background: #5C5758 !important;
+  background: #292929 !important;
   top: 13px !important;
   -webkit-transform: rotate(45deg);
   /* Chrome, Safari, Opera */
@@ -95,7 +93,7 @@ a:hover, a:focus, a:active {
   opacity: 0; }
 
 .bottom-animate {
-  background: #5C5758 !important;
+  background: #292929 !important;
   top: 13px !important;
   -webkit-transform: rotate(-225deg);
   /* Chrome, Safari, Opera */
@@ -183,19 +181,19 @@ a:hover, a:focus, a:active {
   padding: 10px; }
 
 .mobilenav li a {
-  font-size: 27px;
-  color: #5C5758;
+  font-size: 35px;
+  color: #292929;
   font-family: 'Crimson Text', serif;
   font-weight: bold;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
   width: 100%;
   -ms-transition: .5s;
   -moz-transition: .5s;
   -webkit-transition: .5s;
   transition: .5s; }
   .mobilenav li a:hover, .mobilenav li a:active {
-    color: #CFCFCF; }
+    color: #7c7c7c; }
 
 .mobilenav li:first-child {
   margin-top: 15px; }
@@ -289,7 +287,7 @@ a:hover, a:focus, a:active {
   width: 65px;
   height: 65px;
   border-radius: 50%;
-  border: 3px solid #5C5758;
+  border: 3px solid #292929;
   margin: 0 auto;
   display: inline; }
 
@@ -299,8 +297,6 @@ a:hover, a:focus, a:active {
     height: 100px; } }
 .about-bg-wrap {
   background-color: #fff; }
-  .about-bg-wrap p {
-    color: #b5b5b5; }
 
 .about-title h2 {
   padding-bottom: 10px; }
@@ -330,7 +326,7 @@ a:hover, a:focus, a:active {
 #music .page-sub-section--title .see-hear {
   cursor: pointer; }
 #music .page-sub-section--title .see-hear:hover h3 {
-  color: #5C5758; }
+  color: #7c7c7c; }
 
 .page-sub-section--title {
   padding-top: 10px;
@@ -410,12 +406,12 @@ a:hover, a:focus, a:active {
     font-size: 12px;
     text-transform: none; }
   .shows-wrapper-row h3, .shows-wrapper-row h4 {
-    color: #5C5758; }
+    color: #7c7c7c; }
   .shows-wrapper-row p {
-    color: #5C5758;
+    color: #7c7c7c;
     padding: 7px 0; }
   .shows-wrapper-row a {
-    color: #5C5758;
+    color: #7c7c7c;
     text-align: right; }
 
 .shows-title {
@@ -438,12 +434,12 @@ a:hover, a:focus, a:active {
     font-weight: bold;
     font-size: 15px; }
   .page-section .tour-copy a:hover {
-    color: #5C5758; }
+    color: #7c7c7c; }
 
 .press-link {
   padding-bottom: 20px; }
   .press-link h4 a {
-    color: #5C5758;
+    color: #7c7c7c;
     font-weight: bold;
     font-size: 14px; }
 
@@ -480,7 +476,7 @@ a:hover, a:focus, a:active {
 .contact-info a {
   color: #EBEBEB; }
   .contact-info a:hover {
-    color: #5C5758; }
+    color: #7c7c7c; }
 .contact-info .phone {
   padding-bottom: 5px; }
 
@@ -492,7 +488,7 @@ a:hover, a:focus, a:active {
   display: inline-block;
   padding: 5px; }
 .contact-icons li a {
-  color: #5C5758;
+  color: #7c7c7c;
   -ms-transition: .5s;
   -moz-transition: .5s;
   -webkit-transition: .5s;
@@ -507,13 +503,13 @@ a:hover, a:focus, a:active {
     text-align: center;
     font-size: 11px; }
   .lessons a {
-    color: #5C5758;
+    color: #7c7c7c;
     font-weight: bold; }
   .lessons a:hover {
-    color: #5C5758; }
+    color: #7c7c7c; }
 
 .watermark h5 {
-  color: #5C5758;
+  color: #7c7c7c;
   font-size: 10px; }
 
 .footer-spacer {
@@ -562,7 +558,7 @@ a:hover, a:focus, a:active {
 .press-bookings h2,
 .press-press h2 {
   margin-bottom: 30px;
-  color: #5C5758; }
+  color: #292929; }
 
 .press-audio-item {
   padding-bottom: 15px; }
@@ -601,7 +597,7 @@ a:hover, a:focus, a:active {
     height: 100%; }
 
 .press-bookings a, .press-bookings h4 {
-  color: #5C5758; }
+  color: #7c7c7c; }
 .press-bookings a:hover {
   color: #CFCFCF;
   cursor: pointer; }
@@ -610,13 +606,13 @@ a:hover, a:focus, a:active {
   padding-left: 0; }
 .press-bookings li {
   text-align: center;
-  color: #5C5758;
+  color: #7c7c7c;
   font-size: 17px; }
 
 .contact-icons .fa-2x {
   font-size: 2.3em; }
 .contact-icons .press-icons a {
-  color: #5C5758; }
+  color: #7c7c7c; }
 .contact-icons .press-icons a:hover {
   color: #CFCFCF; }
 

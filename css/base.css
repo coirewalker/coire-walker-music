@@ -46,10 +46,9 @@ h2, h3 {
 
 h2 {
   font-family: 'Crimson Text', serif;
-  color: #5C5758;
+  color: #292929;
   font-size: 35px;
   font-weight: bold;
-  letter-spacing: 1px;
   text-transform: lowercase;
   margin-top: 0;
   margin-bottom: 0; }
@@ -57,7 +56,6 @@ h2 {
 h3 {
   font-family: 'Lora', serif;
   text-transform: lowercase;
-  letter-spacing: 1px;
   color: #CFCFCF;
   font-size: 20px; }
 
@@ -67,7 +65,7 @@ h4, h5, h6, p {
 p {
   font-weight: 300;
   text-align: left;
-  color: #5C5758; }
+  color: #7c7c7c; }
 
 @media (min-width: 768px) {
   p {
