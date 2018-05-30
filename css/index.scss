@@ -128,7 +128,7 @@
 	width: 65px;
 	height: 65px;
 	border-radius: 50%;
-	border: 3px solid $primary-font-gray-dark;
+	border: 3px solid $almost-black;
 	margin: 0 auto;
 	display: inline;
 }
@@ -147,9 +147,6 @@
 // ABOUT 
 .about-bg-wrap {
 	background-color: #fff;
-	p {
-		color: $about-font-gray;
-	}
 }
 
 .about-title h2 {

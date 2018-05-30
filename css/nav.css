@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$primary-font-gray-dark".
+Error: Undefined variable: "$almost-black".
         on line 7 of css/nav.scss
 
 2: 	-webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -7,7 +7,7 @@ Error: Undefined variable: "$primary-font-gray-dark".
 4: }
 5: 
 6: .top-animate {
-7: 	background: $primary-font-gray-dark !important;
+7: 	background: $almost-black !important;
 8: 	top: 13px !important;
 9: 	-webkit-transform: rotate(45deg);
 10: 	/* Chrome, Safari, Opera *\/
@@ -72,4 +72,4 @@ css/nav.scss:7
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-font-gray-dark\".\A         on line 7 of css/nav.scss\A \A 2: 	-webkit-tap-highlight-color: rgba(0,0,0,0);\A 3: 	-webkit-tap-highlight-color: transparent; /* For some Androids */\A 4: }\A 5: \A 6: .top-animate {\A 7: 	background: $primary-font-gray-dark !important;\A 8: 	top: 13px !important;\A 9: 	-webkit-transform: rotate(45deg);\A 10: 	/* Chrome, Safari, Opera */\A 11: 	transform: rotate(45deg);\A 12: }"; }
+  content: "Error: Undefined variable: \"$almost-black\".\A         on line 7 of css/nav.scss\A \A 2: 	-webkit-tap-highlight-color: rgba(0,0,0,0);\A 3: 	-webkit-tap-highlight-color: transparent; /* For some Androids */\A 4: }\A 5: \A 6: .top-animate {\A 7: 	background: $almost-black !important;\A 8: 	top: 13px !important;\A 9: 	-webkit-transform: rotate(45deg);\A 10: 	/* Chrome, Safari, Opera */\A 11: 	transform: rotate(45deg);\A 12: }"; }

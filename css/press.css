@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$primary-font-gray-dark".
+Error: Undefined variable: "$almost-black".
         on line 44 of css/press.scss
 
 39: .press-social, 
@@ -7,7 +7,7 @@ Error: Undefined variable: "$primary-font-gray-dark".
 41: .press-press {
 42: 	h2 {
 43: 		margin-bottom: 30px;
-44: 		color: $primary-font-gray-dark;
+44: 		color: $almost-black;
 45: 	}
 46: }
 47: 
@@ -79,4 +79,4 @@ css/press.scss:44
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-font-gray-dark\".\A         on line 44 of css/press.scss\A \A 39: .press-social, \A 40: .press-bookings, \A 41: .press-press {\A 42: 	h2 {\A 43: 		margin-bottom: 30px;\A 44: 		color: $primary-font-gray-dark;\A 45: 	}\A 46: }\A 47: \A 48: \A 49: "; }
+  content: "Error: Undefined variable: \"$almost-black\".\A         on line 44 of css/press.scss\A \A 39: .press-social, \A 40: .press-bookings, \A 41: .press-press {\A 42: 	h2 {\A 43: 		margin-bottom: 30px;\A 44: 		color: $almost-black;\A 45: 	}\A 46: }\A 47: \A 48: \A 49: "; }

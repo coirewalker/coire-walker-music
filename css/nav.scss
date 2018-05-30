@@ -4,7 +4,7 @@
 }
 
 .top-animate {
-	background: $primary-font-gray-dark !important;
+	background: $almost-black !important;
 	top: 13px !important;
 	-webkit-transform: rotate(45deg);
 	/* Chrome, Safari, Opera */
@@ -14,7 +14,7 @@
 .mid-animate { opacity: 0; }
 
 .bottom-animate {
-	background: $primary-font-gray-dark !important;
+	background: $almost-black !important;
 	top: 13px !important;
 	-webkit-transform: rotate(-225deg);
 	/* Chrome, Safari, Opera */
@@ -121,19 +121,19 @@
 }
 
 .mobilenav li a {
-	font-size: 27px;
-	color: $primary-font-gray-dark;
+	font-size: 35px;
+	color: $almost-black;
 	font-family: 'Crimson Text', serif;
 	font-weight: bold;
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	width: 100%;
 	-ms-transition:.5s;
 	-moz-transition:.5s;
 	-webkit-transition:.5s;
 	transition:.5s;
   &:hover, &:active {
-  		color: $primary-font-gray;
+  		color: $primary-font-gray-dark;
   }
 }
 
