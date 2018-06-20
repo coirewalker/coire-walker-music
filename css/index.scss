@@ -153,6 +153,17 @@
 	padding-bottom: 10px;
 }
 
+img.seis {
+	height: auto;
+	width: 45px;
+	&:hover {
+		transition: .8s;
+		opacity: .7;
+	}
+}
+
+
+
 
 
 // MUSIC
