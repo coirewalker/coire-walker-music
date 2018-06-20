@@ -303,7 +303,8 @@ a:hover, a:focus, a:active {
 
 img.seis {
   height: auto;
-  width: 45px; }
+  width: 45px;
+  padding-bottom: 5px; }
   img.seis:hover {
     transition: .8s;
     opacity: .7; }
