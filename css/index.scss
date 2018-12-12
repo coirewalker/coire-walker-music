@@ -31,9 +31,6 @@
 // iPhone 6 landscape 
 @media (min-width: 667px) {
 	.hero {
-		h1 {
-			font-size: 51px;
-		}
 		h3 {
 			font-size: 16px;
 			margin-top: 5px;
@@ -53,19 +50,6 @@
 }
 
 // iPad portrait
-@media (min-width: 768px) {
-	.hero {
-		h1 {
-			font-size: 60px;
-		}
-
-	}
-}
-
-@media (min-width: 1024px) {
-
-}
-
 @media (min-width: 1025px) {
 	.hero {	    
 		bottom: 16%;
@@ -307,7 +291,6 @@ img.seis {
 	}
 	h3 {
 		font-size: 12px;
-		text-transform: none;
 	}
 	h3, h4 {
 		color: $primary-font-gray-dark;
